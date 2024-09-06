@@ -1,0 +1,123 @@
+.standards {
+    max-width: 100%;
+    display: flex;
+    padding: 20px;
+    gap: 150px;
+    background-color: rgba(245, 245, 245, 0.56);
+}
+
+.left, .right {
+    flex: 1;
+    width: 30%;
+}
+
+.left h2 {
+    width: 686px;
+    height: 74px;
+    margin-bottom: 20px; 
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 75.42px;
+    padding: 8px;
+    color: rgba(37, 128, 179, 1);
+    
+}
+
+.left span {
+    width: 686px;
+    height: 98px;
+    display: flex;
+    margin-bottom: 20px; 
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45.25px;
+    padding: 8px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.right{
+    margin-top: 75px;
+}
+
+.right span {
+    height: 18px;
+    display: flex;
+    margin-bottom: 15px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30.17px;
+    padding: 8px;
+    color: rgba(131, 125, 125, 1);
+}
+
+/* Responsiveness */
+@media (max-width: 884px) {
+    .standards{
+        display: flex;
+        align-items: center;
+    }
+
+    .left h2{
+        width: 336px;
+        font-size: 25px;
+    }
+
+    .left span {
+        width: 266px;
+        font-size: 400;
+        font-size: 15px;
+        line-height: 18.86px;
+    }
+
+    .right span{
+        width: 297px;
+        height: 10px;
+        font-size: 16px;
+        line-height: 17.6px;
+        color: rgba(126, 125, 125, 1);
+    }
+}
+
+@media (max-width: 428px) {
+    .standards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        margin-left: -280px;
+        margin-bottom: -270px;
+    
+    }
+
+    .left span{
+        width: 430px;
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .right span{
+        margin-left: -140px;
+    }
+}
+
+@media (max-width: 360px) {
+    .left{
+        margin-left: -280px;
+        margin-bottom: -270px;
+    
+    }
+
+    .left span{
+        width: 380px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .right span{
+        margin-left: -140px;
+    }
+}

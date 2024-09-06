@@ -1,0 +1,245 @@
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 36px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36.31px;
+    padding: 46px;
+    display: flex;
+    margin-left: 600px;
+    color: rgba(152, 151, 151, 1);
+}
+
+.pHeader{
+    width: 984px;
+    height: 245px;
+    display: flex;
+    margin-left: 270px;
+    margin-top: -10px;
+    font-family: "Inter";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54.46px;
+    display: flex;
+    text-align: center;
+    color: rgba(37, 128, 179, 1);
+}
+
+.services img{
+    width: 100%;
+    height: 498px;
+    object-fit: cover;
+}
+
+.cards{
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sellers, .buyers, .request{
+    width: 317px;
+    height: 331px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 6px;
+    box-shadow: 0px 8px 5.7px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.sellers span, .buyers span, .request span{
+    background-color: rgba(37, 128, 179, 1);
+    width: 300px;
+    height: 74px;
+    border-radius: 6px;
+    margin-left: 8px;
+    padding-left: 5px;
+    font-family: "Source Span Pro";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40.22px;
+    padding: 4px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sellers p, .buyers p, .request p{
+    width: 271px;
+    font-family: "Source Span Pro";
+    font-weight: 400;
+    line-height: 29.69px;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 8px;
+    color: rgba(64, 63, 63, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1280px) {
+    .header{
+        margin-left: 490px;
+    }
+
+    .pHeader{
+        margin-left: 150px;
+    }
+    
+}
+
+
+
+@media (max-width: 884px){
+    .header{
+        margin-left: 330px;
+    }
+    
+    .pHeader{
+        width: 830px;
+        font-size: 35px;
+        margin-left: 30px;
+        
+    }
+    
+    .services img{
+        width: 890px;
+        object-fit: contain;
+    }
+    
+    .cards{
+        gap: 50px;
+    }
+    
+    .sellers, .buyers, .request{
+        width: 250px;
+    }
+    
+    .sellers span, .buyers span, .request span{
+        width: 228px;
+        font-size: 28px;
+    }
+    
+    .sellers p, .buyers p, .request p{
+        width: 220px;
+    }
+}
+
+@media (max-width: 428px) and (min-width: 391px) {
+   .header{
+    width: 300px;
+    margin-left: 75px;
+   }
+
+    .pHeader{
+        width: 420px;
+        font-size: 20px;
+        margin-left: 4px;
+        margin-bottom: -100px;
+    }
+    
+    .services img{
+        width: 430px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin-top: -85px;
+    }
+}
+
+@media (max-width: 391px) {
+    .header{
+        margin-left: -8px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pHeader{
+        width: 300px;
+        height: 161px;
+        font-size: 20px;
+        line-height: 24.2px;
+        margin-left: 35px;
+    }
+
+   .services img{
+        /* max-width: 390px; */
+        height: 192px;
+        object-fit: contain;
+        margin-left: -300px;
+        margin-top: 10px;
+    }
+
+    .cards{
+        flex-direction: column;
+        margin-top: 30px;
+    } 
+}
+
+@media (max-width: 360px) {
+    .header{
+        margin-left: -8px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pHeader{
+        width: 300px;
+        height: 161px;
+        font-size: 20px;
+        line-height: 24.2px;
+        margin-left: 35px;
+    }
+
+   .services img{
+        /* max-width: 960px; */
+        height: 168px;
+        margin-top: 10px;
+    }
+
+    .cards{
+        flex-direction: column;
+        margin-top: 30px;
+    } 
+} 
+    
+
+/* @media (max-width: 800px) {
+        .header{
+           
+        }
+    
+        .pHeader{
+            width: 358px;
+            height: 161px;
+            font-size: 20px;
+            line-height: 24.2px;
+            margin-left: 1px;
+        }
+    
+        .services img{
+            width: 392px;
+            height: 141px;
+        }
+    
+        .cards{
+            flex-direction: column;
+            margin-top: 30px;
+        }
+    }
+} */

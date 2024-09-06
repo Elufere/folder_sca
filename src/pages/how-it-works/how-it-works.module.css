@@ -1,0 +1,121 @@
+.howItWorks {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -80px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 28.87px;
+    height: 28.87px;
+    position: absolute;
+    top: 286.41px;
+    left: 77px;
+    transform: rotate(45deg);
+}
+
+.headerH {
+    width: 245px;
+    height: 48px;
+    position: absolute;
+    top: 278px;
+    left: 146px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 40px;
+}
+
+.wrapperH {
+    width: 940px;
+    height: 93px;
+    position: relative; 
+    color: rgba(17, 17, 17, 1);
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: left;
+    padding: 10px;
+}
+
+.aboutNote {
+    width: 879px;
+    height: 83px;
+    position: relative; 
+    color: rgba(64, 63, 63, 1);
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.89px;
+    text-align: left;
+    padding: 10px;
+}
+
+.sellSimple {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 50px;
+}
+
+.sellSimpleHeader {
+    width: 238px;
+    height: 36px;
+    position: relative; 
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36.31px;
+    text-align: left;
+}
+
+.sellSimple img {
+    width: 554px; 
+    height: 409px;
+    margin-top: 10px;
+    position: relative; 
+    object-fit: cover;
+}
+
+.step {
+    width: 881px;
+    height: auto;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px; 
+}
+
+.stepHeader {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.89px;
+    text-align: left;
+    margin-bottom: 20px; 
+}
+
+.step img {
+    width: 554px; 
+    height: 409px;
+    margin-top: 10px;
+    position: relative;
+    object-fit: cover;
+}

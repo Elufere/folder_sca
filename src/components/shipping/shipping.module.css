@@ -1,0 +1,14 @@
+.shipping p{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28.8px;
+    color: rgba(64, 63, 63, 1);
+}
+
+@media (max-width: 926px) {
+    .shipping p{
+        width: 302px;
+        font-size: 20px;
+    }
+}

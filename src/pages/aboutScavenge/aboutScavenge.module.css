@@ -1,0 +1,43 @@
+.aboutScavenge {
+    width: 886px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 77px;
+    padding-right: 191px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    gap: 70px;
+}
+
+.headerIcon {
+    width: 28.87px;
+    height: 28.87px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.headerH {
+    width: 180px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.wrapper{
+    padding-left: 230px;
+}
+
+.aboutScavenge p, .aboutScavenge h2, .aboutScavenge h3{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.89px;
+}

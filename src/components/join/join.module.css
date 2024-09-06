@@ -1,0 +1,40 @@
+.join {
+    width: 100%;
+    height: 263px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.join h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 87.99px;
+    text-align: center;
+    color: rgba(37, 128, 179, 1);
+}
+
+.sustainable {
+    display: block;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 87.99px;
+    color: rgba(37, 128, 179, 1);
+    transform: translateY(5px); 
+}
+
+@media (max-width: 768px) {
+    .join h2{
+        width: 307px;
+        font-size: 30px;
+        line-height: 7.71px;
+        margin-top: -120px;
+    }
+
+    .sustainable{
+        font-size: 35px;
+    }
+}

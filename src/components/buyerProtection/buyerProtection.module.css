@@ -1,0 +1,14 @@
+.buyerProtection p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.25px;
+    color: rgba(64, 63, 63, 1);
+}
+
+@media (max-width: 926px) {
+    .buyerProtection p {
+        width: 320px;
+        font-size: 18px;
+    }
+}

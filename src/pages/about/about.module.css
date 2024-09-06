@@ -1,0 +1,134 @@
+.about {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 90px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 77px;
+    padding-right: 191px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    gap: 98px;
+}
+
+.headerIcon {
+    width: 28.87px;
+    height: 28.87px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.headerH {
+    font-size: 24px;
+    font-weight: bold;
+    width: 101px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.wrapper {
+    margin-left: 191px;
+    margin-top: 60px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 0.6px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.listItem:last-child {
+    border-bottom: none;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.list li{
+    height: 30.26px;
+    font-family: "Inter";
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30.26px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+@media (max-width: 926px) {
+    .about{
+        padding: 0;
+    }
+
+    .header{
+        padding-left: 15px;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .headerH{
+        font-size: 27px;
+    }
+
+    .wrapper{
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+
+    .list li{
+        width: 326px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+
+
+    .header{
+        margin-top: 90px;
+        padding-left: 1px;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .headerH{
+        font-size: 27px;
+    }
+
+    .wrapper{
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .list li{
+        width: 326px;
+        font-size: 20px;
+    }
+}
+

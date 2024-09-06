@@ -1,0 +1,80 @@
+.refund {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 77px;
+    padding-right: 191px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    gap: 98px;
+}
+
+.headerIcon {
+    width: 28.87px;
+    height: 28.87px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.headerH {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buyerProtection{
+    padding-left: 200px;
+}
+
+.buyerProtection p, .buyerProtection h3, .buyerProtection li{
+    width: 772px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.25px;
+    color: rgba(64, 63, 63, 1);
+}
+
+@media (max-width: 926px){
+    .header{
+        width: 328px;
+        margin-left: -70px;
+    }
+
+    .headerIcon{
+        display: none;
+    }
+
+    .buyerProtection{
+        padding-left: 12px;
+    }
+
+    .buyerProtection p, .buyerProtection h3, .buyerProtection li{
+        width: 272px;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33.25px;
+        color: rgba(64, 63, 63, 1);
+    }
+}
+
+@media (max-width: 360px) {
+    .refund{
+        padding-left: 5px;
+    }
+
+    .buyerProtection p, .buyerProtection h3, .buyerProtection li{
+        width: 260px;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33.25px;
+        color: rgba(64, 63, 63, 1);
+    }
+}

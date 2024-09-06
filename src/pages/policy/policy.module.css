@@ -1,0 +1,103 @@
+.policy{
+    width: 80%;
+    padding: 110px;
+}
+
+.policy h1{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 44.78px;
+}
+
+.policy h2, .policy h3, .policy p, .policy li{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 44.78px;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.priceTable {
+    width: 50%;
+    margin: 0 ;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  
+  @media (max-width: 926px){
+    .policy h1{
+      font-size: 27px;
+      margin-left: -80px;
+  }
+  
+  .policy h2, .policy h3, .policy p, .policy li{
+      width: 370px;
+      font-size: 20px;
+      line-height: 44.78px;  
+      margin-left: -80px;
+  }
+
+  .priceTable{
+    width: 320px;
+    margin-left: -70px;
+  }
+  }
+
+  @media (max-width: 884px){
+
+    .policy h1{
+      font-size: 23px;
+  }
+  
+  .policy h2, .policy h3, .policy p, .policy li{
+      width: 780px;
+      font-size: 20px;
+      line-height: 44.78px;  
+  }
+
+  .priceTable{
+    width: 320px;
+  }
+}
+
+@media (max-width: 428px){
+    
+  .policy h2, .policy h3, .policy p, .policy li{
+    width: 360px;
+    font-size: 20px;
+    line-height: 44.78px;  
+  }
+
+}
+
+@media (max-width: 360px) {
+  .policy h2, .policy h3, .policy p, .policy li{
+    width: 280px;
+    font-size: 16px;
+    line-height: 40.78px;  
+  }
+}

@@ -1,0 +1,275 @@
+.security{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.security img{
+    width: 100%;
+    height: 760px;
+    margin-top: 170px;
+    object-fit: cover;
+}
+
+.confidence{
+    width: 100%;
+    display: flex;
+    background: rgba(233, 245, 246, 1);
+    margin-top: -2px;
+}
+
+.left{
+    flex: 1;
+}
+
+.left p{
+    width: 630px;
+    height: 484px;
+    margin-top: 100px;
+    font-family: "Source Sans Pro";
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 75.42px;
+    padding: 8px;
+    color: rgba(37, 128, 179, 1);
+}
+
+.logo p{
+    width: 587px;
+    height: 33px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31.43px;
+    padding: 4px;
+    color: rgba(37, 128, 179, 1);
+}
+
+
+.logo img{
+    width: 108px;  
+    height: 108px; 
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    filter: grayscale(100%);   
+}
+
+
+.right{
+    flex: 1;
+}
+
+.right p{
+    width: 429px;
+    height: 129px;
+    margin-top: 130px;
+    margin-left: 120px;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30.17px;
+    padding: 3px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.right button{
+    width: 188px;
+    height: 52px;
+    margin-left: 125px;
+    border-radius: 6px;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgba(37, 128, 179, 1);
+    color: white;
+    border: none;
+}
+
+.faq {
+    width: 70%; 
+    max-width: 950px; 
+    padding: 20px;
+}
+
+.faq p {
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47.77px;
+    padding: 4px;
+    color: rgba(37, 128, 179, 1);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px; 
+}
+
+.expandedContent li {
+    width: 100%; 
+    max-width: 800px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35.2px;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+}
+
+.faqExpandedContent h3{
+    font-family: "Source Sans Pro", serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35.2px;
+    padding: 4px;
+    margin-bottom: -10px;
+}
+
+.faqExpandedContent li {
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35.2px;
+    padding: 4px;
+    color: black;
+}
+
+/* Responsiveness */
+
+
+@media (max-width: 1280px) {
+    .logo img{
+        width: 100px;
+    }
+}
+
+
+
+
+@media (max-width: 428px) and (min-width: 391px){
+    .security img{
+        width: 440px;
+    }
+    .left p{
+        width: 330px;
+        height: 201px;
+        font-size: 25px;
+        line-height: 31.43px;
+        padding: 8px;
+    }
+    
+    .logo p{
+        width: 357px;
+        height: 105px;
+        font-size: 13px;
+        line-height: 16.34px;
+        margin-top: -60px;
+    }
+
+    .logo img{
+        margin-right: 6px;
+        margin-left: 14px;
+        margin-top: -90px;
+        width: 50.65px;
+        height: 51.54px;
+        object-fit: cover;
+    }
+    
+    .faq p{
+        width: 450px;
+        font-size: 17px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+    
+    .expandedContent li{
+        width: 330px;
+        font-size: 16px;
+    }
+
+    .faqExpandedContent h3, .faqExpandedContent li{
+        width: 330px;
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 391px) and (min-width: 360px) {
+    .security img{
+        width: 390px;
+        height: 232px;
+    }
+
+    .confidence {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left p{
+        width: 330px;
+        height: 201px;
+        font-size: 25px;
+        line-height: 31.43px;
+        padding: 8px;
+    }
+
+    .logo p{
+        width: 357px;
+        height: 105px;
+        font-size: 13px;
+        line-height: 16.34px;
+        margin-top: -60px;
+    }
+
+    .logo img{
+        margin-right: 8px;
+        margin-left: 10px;
+        margin-top: -90px;
+        width: 40.65px;
+        height: 40.54px;
+        object-fit: cover;
+    }
+
+    .right p{
+        width: 340px;
+        height: 105px;
+        margin-left: 20px;
+        margin-top: -10px;
+        margin-bottom: 90px;
+    }
+
+    .right button{
+        margin-left: 23px;
+        margin-bottom: 20px;
+    }
+
+    .faq p{
+        width: 350px;
+        font-size: 14px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+    .expandedContent li {
+        width: 330px;
+        font-size: 16px;
+        line-height: 30.2px;
+        margin-left: -30px;
+    }
+
+    .faqExpandedContent h3{
+        width: 330px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+    
+    .faqExpandedContent li {
+        width: 320px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+} 

@@ -1,0 +1,113 @@
+.support {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.iconBack {
+    width: 28.87px;
+    height: 28.87px;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.headerH {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0,0,0,1);
+}
+
+.support h2 {
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 20px 0;
+    margin-left: 40px;
+    color: rgba(37, 128, 179, 1);
+}
+
+.phone, .mail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    margin-left: 40px;
+    padding: 15px;
+    border: 1px solid rgba(37, 128, 179, 0.2);
+    border-radius: 8px;
+}
+
+.phoneInfo, .mailInfo {
+    flex: 1;
+}
+
+.phoneInfo span, .mailInfo span {
+    display: flex;
+    align-items: center;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(37, 128, 179, 1);
+}
+
+.team, .mailTeam {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(64, 63, 63, 1);
+    margin-top: 10px;
+}
+
+.phoneNum, .email {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgba(37, 128, 179, 1);
+    margin-top: 15px;
+}
+
+.iconForward {
+    font-size: 28px;
+    color: rgba(37, 128, 179, 1);
+    margin-left: 10px;
+}
+
+@media (max-width: 926px) {
+    .support h2{
+        font-size: 25px;
+    }
+
+    .phoneNum, .email {
+        font-size: 14px;
+        line-height: 30px;
+        color: rgba(37, 128, 179, 1);
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .support{
+        padding: 0;
+    }
+
+    .support h2{
+        font-size: 20px;
+    }
+
+    .phoneNum, .email {
+        font-size: 13px;
+        line-height: 20px;
+        color: rgba(37, 128, 179, 1);
+    }
+}

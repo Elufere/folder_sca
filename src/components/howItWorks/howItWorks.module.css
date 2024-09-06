@@ -1,0 +1,70 @@
+.howItWorks h2{
+    width:800px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 45.99px;
+    padding: 1px;
+    color: rgba(17, 17, 17, 1);
+}
+
+.sellSimple{
+    width: 293px;
+    height: 36px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36.31px;
+}
+
+.howItWorks p, .howItWorks span{
+    width: 774px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.89px;
+    display: block;
+    color: rgba(64, 63, 63, 1);
+}
+
+.howItWorks img, .boxImg{
+    width: 750px;
+    height: 409px;
+    object-fit: cover;
+}
+
+.shopSafely{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33.31px;
+    color: rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 926px) {
+   .howItWorks h2{
+        width: 330px;
+        margin-left: -2px;
+        font-size: 25px;
+   }
+   
+   .howItWorks p, .howItWorks span{
+    width: 330px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33.89px;
+    color: rgba(64, 63, 63, 1);
+    display: block;
+    }
+    
+    .howItWorks img, .boxImg{
+        width: 320px;
+        height: 300px;
+        margin-left: -9px;
+        object-fit: cover;
+    }
+
+    .largeImg{
+        max-width: 320px;
+    }
+}
