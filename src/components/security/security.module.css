@@ -147,6 +147,49 @@
 }
 
 
+@media (max-width: 884px) and (min-width: 429px){
+    .confidence{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left p {
+        width: 880px;
+        padding-left: 20px;
+        font-size: 45px;
+    }
+
+    .logo p{
+        margin-top: -130px;
+        font-size: 35px;
+    }
+
+    .logo img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: -40px;
+    }
+
+    .right p{
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+
+    .right button {
+        
+        margin-left: 5px;
+    }
+
+    .faq p{
+        font-size: 25px;
+    }
+}
 
 
 @media (max-width: 428px) and (min-width: 391px){

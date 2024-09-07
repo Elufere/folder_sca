@@ -65,6 +65,25 @@
 }
 
 
+@media (max-width: 884px) {
+    .left img{
+        width: 250px;
+        height: 340px;
+    }
+
+    .right h3{
+        font-size: 36px;
+    }
+
+    .right h2 {
+        font-size: 46px;
+    }
+
+    .desc{
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 428px) and (min-width: 391px) {
 
     .team{

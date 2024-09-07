@@ -12,3 +12,9 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 884px) {
+    .shipping p{
+        width: 702px;
+    }
+}

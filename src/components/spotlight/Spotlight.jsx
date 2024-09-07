@@ -17,7 +17,7 @@ export default function Spotlight() {
 
             <h3>Item Spotlight</h3>
             <p>To subscribe for Item Spotlight:</p>
-            <ul>
+            <ul className={SpotlightStyles.spotUl}>
                 <li >Tap the upload button</li>
                 <li>Upload a maximum of 10 different items</li>
                 <li>Fill in your personal information</li>
@@ -31,7 +31,7 @@ export default function Spotlight() {
 
             <h3>Wardrobe Showcase</h3>
             <p>To purchase a Wardrobe Showcase:</p>
-            <ul>
+            <ul className={SpotlightStyles.wardropeUl}>
                 <li>You’ll need at least 3 listings visible in your wardrobe.</li>
                 <li>Tap the upload button</li>
                 <li>Fill in your personal information</li>

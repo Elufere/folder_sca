@@ -17,3 +17,10 @@
     }
 }
 
+@media (max-width: 884px) {
+    .aboutSca P{
+        width: 700px;
+        font-size: 18px;
+    }
+}
+

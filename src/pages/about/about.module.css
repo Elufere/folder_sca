@@ -106,6 +106,29 @@
     }
 }
 
+@media (max-width: 884px) {
+    .about{
+        margin-bottom: 250px;
+    } 
+
+    .header{
+        padding-left: 51px;
+    }
+
+    .headerH {
+        margin-left: 20px;
+    }
+
+    .wrapper{
+        margin-left: 110px;
+    }
+
+    .list li{
+        width: 330px;
+    }
+
+}
+
 @media (max-width: 360px) {
 
 

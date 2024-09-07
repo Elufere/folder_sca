@@ -71,6 +71,17 @@
 
 /* Media Query for screens 768px and smaller */
 
+@media (max-width: 884px) and (min-width: 800px) {
+    .left h2{
+        font-size: 29px;
+    }
+
+    .right img{
+        width: 410px;
+        margin-left: 10px;
+    }
+}
+
 @media (max-width: 428px) and (min-width: 391px) {
     .hero {
         display: flex;

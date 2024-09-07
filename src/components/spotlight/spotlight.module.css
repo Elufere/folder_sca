@@ -21,3 +21,32 @@
     font-size: 32px;
     
 }
+
+@media (max-width: 8784px) {
+    .spotlightContainer{
+        width: 780px;
+    }
+
+    .spotlightContainer h1{
+        font-size: 35px;
+    }
+
+    .spotlightContainer p, .spotlightContainer li{
+        font-size: 22px;
+    }
+
+    .spotUl{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .spotUl li{
+        width: 450px;
+    }
+
+    .wardropeUl li{
+        width: 650px;
+
+    }
+}
