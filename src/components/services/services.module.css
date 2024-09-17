@@ -97,11 +97,27 @@
         margin-left: 150px;
     }
     
+    .services img{
+        width: 1114px;
+        object-fit: contain;
+    }
 }
 
+@media (max-width: 1115px) and (min-width: 885px){
+    .header{
+        margin-left: 400px;
+    }
 
+    .pHeader{
+        margin-left: 70px;
+    }
+    
+    .cards{
+        gap: 40px;
+    }
+}
 
-@media (max-width: 884px){
+@media (max-width: 885px) and (min-width: 835px){
     .header{
         margin-left: 330px;
     }
@@ -136,7 +152,79 @@
     }
 }
 
-@media (max-width: 428px) and (min-width: 391px) {
+@media (max-width: 835px) and (min-width: 801px){
+    .header{
+        margin-left: 270px;
+    }
+    
+    .pHeader{
+        width: 830px;
+        font-size: 35px;
+        margin-left: -10px;
+        
+    }
+    
+    .services img{
+        width: 820px;
+        object-fit: contain;
+    }
+    
+    .cards{
+        gap: 50px;
+    }
+    
+    .sellers, .buyers, .request{
+        width: 250px;
+    }
+    
+    .sellers span, .buyers span, .request span{
+        width: 228px;
+        font-size: 28px;
+    }
+    
+    .sellers p, .buyers p, .request p{
+        width: 220px;
+    }
+}
+
+
+
+@media (max-width: 801px) and (min-width: 429px){
+    .header{
+        margin-left: 250px;
+    }
+    
+    .pHeader{
+        width: 830px;
+        font-size: 30px;
+        margin-left: -29px;
+        
+    }
+    
+    .services img{
+        width: 800px;
+        object-fit: contain;
+    }
+    
+    .cards{
+        gap: 45px;
+    }
+    
+    .sellers, .buyers, .request{
+        width: 230px;
+    }
+    
+    .sellers span, .buyers span, .request span{
+        width: 210px;
+        font-size: 28px;
+    }
+    
+    .sellers p, .buyers p, .request p{
+        width: 220px;
+    }
+}
+
+@media (max-width: 429px) and (min-width: 415px) {
    .header{
     width: 300px;
     margin-left: 75px;
@@ -151,6 +239,7 @@
     
     .services img{
         width: 430px;
+        object-fit: contain;
     }
 
     .cards{
@@ -159,6 +248,31 @@
         margin-top: -85px;
     }
 }
+
+@media (max-width: 415px) and (min-width: 391px) {
+    .header{
+     width: 300px;
+     margin-left: 75px;
+    }
+ 
+     .pHeader{
+         width: 420px;
+         font-size: 18px;
+         margin-left: 4px;
+         margin-bottom: -100px;
+     }
+     
+     .services img{
+         width: 414px;
+         object-fit: contain;
+     }
+ 
+     .cards{
+         display: flex;
+         flex-direction: column;
+         margin-top: -85px;
+     }
+ }
 
 @media (max-width: 391px) {
     .header{
@@ -176,11 +290,12 @@
         margin-left: 35px;
     }
 
+
    .services img{
-        max-width: 400px;
+        max-width: 500px;
         height: 192px;
         object-fit: contain;
-        margin-left: -10px;
+        /* margin-left: -10px; */
         margin-top: 10px;
     }
 
@@ -190,7 +305,7 @@
     } 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 360px) and (min-width: 321px) {
     .header{
         margin-left: -8px;
         font-size: 20px;
@@ -207,7 +322,6 @@
     }
 
    .services img{
-        /* max-width: 960px; */
         height: 168px;
         margin-top: 10px;
     }
@@ -218,28 +332,30 @@
     } 
 } 
     
-
-/* @media (max-width: 800px) {
-        .header{
-           
-        }
-    
-        .pHeader{
-            width: 358px;
-            height: 161px;
-            font-size: 20px;
-            line-height: 24.2px;
-            margin-left: 1px;
-        }
-    
-        .services img{
-            width: 392px;
-            height: 141px;
-        }
-    
-        .cards{
-            flex-direction: column;
-            margin-top: 30px;
-        }
+@media (max-width: 321px) {
+    .header{
+        margin-left: -8px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
     }
-} */
+
+    .pHeader{
+        width: 300px;
+        height: 161px;
+        font-size: 20px;
+        line-height: 24.2px;
+        margin-left: 13px;
+    }
+
+   .services img{
+        height: 168px;
+        margin-top: 10px;
+    }
+
+    .cards{
+        flex-direction: column;
+        margin-top: 30px;
+    } 
+} 
+    

@@ -20,3 +20,11 @@
     }
   }
   
+  @media (max-width: 320px) {
+    .footer{
+      gap: 5px;
+      font-size: 10px;
+    }
+  }
+  
+  

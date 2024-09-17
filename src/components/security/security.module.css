@@ -140,14 +140,47 @@
 /* Responsiveness */
 
 
-@media (max-width: 1280px) {
+@media (max-width: 1280px) and (min) {
     .logo img{
         width: 100px;
     }
 }
 
+@media (max-width: 1115px) and ((min-width: 885px)) {
+    .logo img{
+        width: 100px;
+    }
 
-@media (max-width: 884px) and (min-width: 429px){
+    .left p{
+        font-size: 30px;
+    }
+
+    .right p{
+        margin-left: -5px;
+    }
+
+    .right button{
+        margin-left: -5px;
+    }
+
+    .logo p{
+        margin-top: -200px;
+        font-size: 25px;
+    }
+
+    .logo img{
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .faq p{
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 885px) and (min-width: 835px){
     .confidence{
         display: flex;
         flex-direction: column;
@@ -192,7 +225,97 @@
 }
 
 
-@media (max-width: 428px) and (min-width: 391px){
+@media (max-width: 835px) and (min-width: 801px){
+    .confidence{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left p {
+        width: 880px;
+        padding-left: 20px;
+        font-size: 45px;
+    }
+
+    .logo p{
+        margin-top: -130px;
+        font-size: 35px;
+    }
+
+    .logo img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: -40px;
+    }
+
+    .right p{
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+
+    .right button {
+        
+        margin-left: 5px;
+    }
+
+    .faq p{
+        width: 590px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 801px) and (min-width: 429px){
+    .confidence{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left p {
+        width: 750px;
+        padding-left: 20px;
+        font-size: 30px;
+    }
+
+    .logo p{
+        margin-top: -250px;
+        font-size: 35px;
+    }
+
+    .logo img{
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: -40px;
+    }
+
+    .right p{
+        margin-left: 5px;
+        margin-top: -20px;
+    }
+
+    .right button {
+        
+        margin-left: 5px;
+    }
+
+    .faq p{
+        width: 650px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 429px) and (min-width: 391px){
     .security img{
         width: 440px;
     }   .confidence {
@@ -338,6 +461,84 @@
     
     .faqExpandedContent li {
         width: 320px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+} 
+
+
+@media (max-width: 321px){
+    .security img{
+        width: 390px;
+        height: 232px;
+    }
+
+    .confidence {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left p{
+        width: 300px;
+        height: 201px;
+        font-size: 22px;
+        line-height: 31.43px;
+        padding: 8px;
+    }
+
+    .logo p{
+        width: 357px;
+        height: 105px;
+        font-size: 13px;
+        line-height: 16.34px;
+        margin-top: -60px;
+    }
+
+    .logo img{
+        margin-right: 8px;
+        margin-left: 10px;
+        margin-top: -90px;
+        width: 40.65px;
+        height: 40.54px;
+        object-fit: cover;
+    }
+
+    .right p{
+        width: 290px;
+        height: 105px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: -10px;
+        margin-bottom: 90px;
+    }
+
+    .right button{
+        margin-left: 23px;
+        margin-bottom: 20px;
+    }
+
+    .faq p{
+        width: 330px;
+        font-size: 13px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+    .expandedContent li {
+        width: 290px;
+        font-size: 16px;
+        line-height: 30.2px;
+        margin-left: -30px;
+    }
+
+    .faqExpandedContent h3{
+        width: 300px;
+        font-size: 14px;
+        margin-left: -30px;
+    }
+    
+    .faqExpandedContent li {
+        width: 290px;
         font-size: 16px;
         margin-left: -30px;
     }
