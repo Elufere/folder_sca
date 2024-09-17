@@ -13,12 +13,18 @@
     }
 }
 
-@media (max-width: 884px) and (min-width: 391px) {
+@media (max-width: 884px) and (min-width: 429px) {
     .uploadingItem p{
         width: 720px;
     }
 }
 
+@media (max-width: 429px) and (min-width: 391px) {
+    .uploadingItem p{
+        width: 330px;
+        font-size: 16px;
+    }
+}
 
 @media (max-width: 391px) {
     .uploadingItem p{

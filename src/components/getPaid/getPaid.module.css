@@ -28,9 +28,16 @@
 }
 
 
-@media (max-width: 884px) and (min-width: 391px){
+@media (max-width: 884px) and (min-width: 415px){
     .getPaid p{
         width: 720px;
+    }
+
+}
+
+@media (max-width: 415px) and (min-width: 391px){
+    .getPaid p{
+        width: 360px;
     }
 
 }

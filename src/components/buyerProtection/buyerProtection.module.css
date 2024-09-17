@@ -14,16 +14,30 @@
 }
 
 
-@media (max-width: 884px) and (min-width: 391px){
+@media (max-width: 884px) and (min-width: 429px){
     .buyerProtection p {
         width: 620px;
     }
 }
 
-
-@media (max-width: 391px) {
+@media (max-width: 429px) and (min-width: 391px) {
     .buyerProtection p {
         width: 360px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 391px) and (min-width: 361px) {
+    .buyerProtection p {
+        width: 360px;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 361px) {
+    .buyerProtection p {
+        width: 330px;
         font-size: 16px;
     }
 }

@@ -65,7 +65,7 @@
 }
 
 
-@media (max-width: 884px) and (min-width: 391px) {
+@media (max-width: 884px) and (min-width: 429px) {
     .buyerProtection p, .buyerProtection h3, .buyerProtection li{
         width: 780px;
         font-family: "Inter";
@@ -76,15 +76,35 @@
     }
 }
 
+@media (max-width: 429px) and (min-width: 391px) {
+    .refund{
+        padding-left: 1px;
+        padding-top: 10px;
+    }
+    .buyerProtection p, .buyerProtection h3, .buyerProtection li{
+        width: 390px;
+        font-size: 14px;
+        line-height: 23.25px;
+    }
+
+    .buyerProtection li{
+        margin-left: -30px;
+    }
+}
+
 @media (max-width: 391px) {
     .refund{
         padding-left: 1px;
         padding-top: 10px;
     }
     .buyerProtection p, .buyerProtection h3, .buyerProtection li{
-        width: 290px;
-        font-size: 13px;
+        width: 350px;
+        font-size: 14px;
         line-height: 23.25px;
+    }
+    
+    .buyerProtection li{
+        margin-left: -30px;
     }
 }
 
@@ -94,10 +114,10 @@
     }
 
     .buyerProtection p, .buyerProtection h3, .buyerProtection li{
-        width: 260px;
+        width: 330px;
         font-family: "Inter";
         font-weight: 400;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 33.25px;
         color: rgba(64, 63, 63, 1);
     }
