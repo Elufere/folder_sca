@@ -65,9 +65,21 @@
 }
 
 
-@media (max-width: 884px) and (min-width: 429px) {
+@media (max-width: 885px) and (min-width: 835px) {
     .buyerProtection p, .buyerProtection h3, .buyerProtection li{
         width: 780px;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33.25px;
+        color: rgba(64, 63, 63, 1);
+    }
+}
+
+@media (max-width: 835px) and (min-width: 429px) {
+    .buyerProtection p, .buyerProtection h3, .buyerProtection li{
+        width: 700px;
+        margin-left: -21px;
         font-family: "Inter";
         font-weight: 400;
         font-size: 18px;
@@ -115,6 +127,22 @@
 
     .buyerProtection p, .buyerProtection h3, .buyerProtection li{
         width: 330px;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 33.25px;
+        color: rgba(64, 63, 63, 1);
+    }
+}
+
+
+@media (max-width: 321px) {
+    .refund{
+        padding-left: 1px;
+    }
+
+    .buyerProtection p, .buyerProtection h3, .buyerProtection li{
+        width: 300px;
         font-family: "Inter";
         font-weight: 400;
         font-size: 15px;

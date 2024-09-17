@@ -2,7 +2,7 @@
     width:800px;
     font-family: "Inter";
     font-weight: 600;
-    font-size: 38px;
+    font-size: 18px;
     line-height: 45.99px;
     padding: 1px;
     color: rgba(17, 17, 17, 1);
@@ -41,20 +41,20 @@
 }
 
 @media (max-width: 926px) {
-   .howItWorks h2{
+    .howItWorks h2{
         width: 330px;
         margin-left: -2px;
         font-size: 25px;
-   }
-   
-   .howItWorks p, .howItWorks span{
-    width: 330px;
-    font-family: "Inter";
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33.89px;
-    color: rgba(64, 63, 63, 1);
-    display: block;
+    }
+    
+    .howItWorks p, .howItWorks span{
+        width: 330px;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33.89px;
+        color: rgba(64, 63, 63, 1);
+        display: block;
     }
     
     .howItWorks img, .boxImg{
@@ -63,12 +63,13 @@
         margin-left: -9px;
         object-fit: cover;
     }
-
+    
     .largeImg{
         max-width: 320px;
     }
 }
 
+/* 
 @media (max-width: 884px) and (min-width: 429px)  {
     .howItWorks h2{
         width: 730px;
@@ -113,4 +114,17 @@
     .howItWorks p, .howItWorks span{
              width: 330px;
         }
-}
+} */
+
+
+@media (max-width: 320px)  {
+    .howItWorks h2{
+        width: 300px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .howItWorks p, .howItWorks span{
+             width: 300px;
+        }
+} 

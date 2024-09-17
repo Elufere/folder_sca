@@ -2,8 +2,9 @@
     width: 80%;
     display: flex;
     flex-direction: column;
-    /* padding: 20px; */
+    padding: 20px;
     padding-bottom: 90px;
+    margin-left: -17px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -32,8 +33,8 @@
 }
 
 .wrapper {
-    /* margin-left: 191px; */
-    margin-top: 60px;
+    margin-left: 100px;
+    margin-top: 20px;
     width: 100%;
     max-width: 600px;
     border-radius: 0.6px;
@@ -71,7 +72,7 @@
     font-weight: 400;
     margin-bottom: 10px;
     font-size: 25px;
-    line-height: 30.26px;
+    line-height: 10.26px;
     border-bottom: 1px solid gray;
     display: flex;
     align-items: center;
@@ -106,7 +107,32 @@
     }
 }
 
-@media (max-width: 884px) and (min-width: 429px) {
+@media (max-width: 885px) and (min-width: 835px) {
+    .about{
+        margin-bottom: 250px;
+    } 
+    
+    .header{
+        padding-left: 45px;
+    }
+    
+    .headerH {
+        margin-left: 20px;
+    }
+    
+    .wrapper{
+        margin-left: 110px;
+    }
+    
+    .list li{
+        line-height: 80px;
+        width: 630px;
+        font-size: 35px;
+    }
+    
+}
+
+@media (max-width: 835px) and (min-width: 429px) {
     .about{
         margin-bottom: 250px;
     } 
@@ -120,11 +146,14 @@
     }
     
     .wrapper{
-        margin-left: 110px;
+        margin-left: 90px;
+       
     }
     
     .list li{
-        width: 330px;
+        width: 630px;
+        font-size: 35px;
+        
     }
     
 }
@@ -157,7 +186,7 @@
 
 
 
-@media (max-width: 391px) {
+@media (max-width: 391px) and (min-width: 361px){
     .headerH{
         font-size: 20px;
         margin-left: 5px;
@@ -171,7 +200,7 @@
     }
 
     .wrapper{
-        margin-left: 20px;
+        margin-left: 25px;
     }
     
     .list li{
@@ -180,7 +209,7 @@
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 361px) and (min-width: 321px) {
     
     
     .header{
@@ -206,3 +235,28 @@
     }
 }
 
+
+@media (max-width: 360px) {
+    
+    
+    .header{
+        margin-top: 70px;
+        padding-left: 1px;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .headerH{
+        font-size: 20px;
+    }
+
+    .wrapper{
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .list li{
+        width: 290px;
+        font-size: 18px;    }
+}
