@@ -140,11 +140,18 @@
 /* Responsiveness */
 
 
-@media (max-width: 1280px) and (min) {
+@media (max-width: 1280px) and (min-width: 1115px) {
     .logo img{
-        width: 100px;
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+    
+    .faq p{
+        font-size: 20px;
     }
 }
+
 
 @media (max-width: 1115px) and ((min-width: 885px)) {
     .logo img{

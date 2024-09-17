@@ -54,7 +54,34 @@
 }
 
 /* Responsiveness */
-@media (max-width: 884px) and (min-width: 429px) {
+@media (max-width: 1115px) and (min-width: 885px) {
+    .standards{
+        display: flex;
+        align-items: center;
+    }
+
+    .left h2{
+        width: 336px;
+        font-size: 25px;
+    }
+
+    .left span {
+        width: 266px;
+        font-size: 400;
+        font-size: 15px;
+        line-height: 18.86px;
+    }
+
+    .right span{
+        width: 297px;
+        height: 10px;
+        font-size: 16px;
+        line-height: 17.6px;
+        color: rgba(126, 125, 125, 1);
+    }
+}
+
+@media (max-width: 885px) and (min-width: 429px) {
     .standards{
         display: flex;
         align-items: center;

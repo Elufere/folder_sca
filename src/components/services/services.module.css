@@ -88,7 +88,7 @@
     justify-content: center;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1280px) and (min-width: 1115px) {
     .header{
         margin-left: 490px;
     }
@@ -98,7 +98,7 @@
     }
     
     .services img{
-        width: 1114px;
+        width: 1280px;
         object-fit: contain;
     }
 }
@@ -110,6 +110,11 @@
 
     .pHeader{
         margin-left: 70px;
+    }
+
+    .services img{
+        width: 1114px;
+        object-fit: contain;
     }
     
     .cards{
@@ -165,7 +170,7 @@
     }
     
     .services img{
-        width: 820px;
+        width: 840px;
         object-fit: contain;
     }
     
@@ -292,6 +297,7 @@
 
 
    .services img{
+    width: 375px;
         max-width: 500px;
         height: 192px;
         object-fit: contain;
@@ -322,8 +328,10 @@
     }
 
    .services img{
+        width: 360px;
         height: 168px;
         margin-top: 10px;
+        object-fit: contain;
     }
 
     .cards{
@@ -349,8 +357,10 @@
     }
 
    .services img{
+    width: 320px;
         height: 168px;
         margin-top: 10px;
+        object-fit: contain;
     }
 
     .cards{
