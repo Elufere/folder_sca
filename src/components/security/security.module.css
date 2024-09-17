@@ -195,7 +195,11 @@
 @media (max-width: 428px) and (min-width: 391px){
     .security img{
         width: 440px;
+    }   .confidence {
+        display: flex;
+        flex-direction: column;
     }
+
     .left p{
         width: 330px;
         height: 201px;
@@ -204,11 +208,6 @@
         padding: 8px;
     }
 
-    .confidence {
-        display: flex;
-        flex-direction: column;
-    }
-    
     .logo p{
         width: 357px;
         height: 105px;
@@ -218,29 +217,51 @@
     }
 
     .logo img{
-        margin-right: 6px;
-        margin-left: 14px;
+        margin-right: 8px;
+        margin-left: 10px;
         margin-top: -90px;
-        width: 50.65px;
-        height: 51.54px;
+        width: 40.65px;
+        height: 40.54px;
         object-fit: cover;
     }
-    
+
+    .right p{
+        width: 340px;
+        height: 105px;
+        margin-left: 20px;
+        margin-top: -10px;
+        margin-bottom: 90px;
+    }
+
+    .right button{
+        margin-left: 23px;
+        margin-bottom: 20px;
+    }
+
     .faq p{
-        width: 450px;
-        font-size: 17px;
+        width: 350px;
+        font-size: 14px;
         margin-left: -15px;
         margin-bottom: -15px;
     }
-    
-    .expandedContent li{
+
+    .expandedContent li {
         width: 330px;
         font-size: 16px;
+        line-height: 30.2px;
+        margin-left: -30px;
     }
 
-    .faqExpandedContent h3, .faqExpandedContent li{
+    .faqExpandedContent h3{
         width: 330px;
         font-size: 16px;
+        margin-left: -30px;
+    }
+    
+    .faqExpandedContent li {
+        width: 320px;
+        font-size: 16px;
+        margin-left: -30px;
     }
 }
 

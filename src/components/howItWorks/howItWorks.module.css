@@ -69,13 +69,24 @@
     }
 }
 
-@media (max-width: 884px) and (min-width: 391px)  {
+@media (max-width: 884px) and (min-width: 429px)  {
     .howItWorks h2{
         width: 730px;
     }
 
     .howItWorks p, .howItWorks span{
              width: 730px;
+        }
+}
+
+@media (min-width: 429px) and (min-width: 391px)  {
+    .howItWorks h2{
+        width: 380px;
+        font-size: 13px;
+    }
+
+    .howItWorks p, .howItWorks span{
+             width: 330px;
         }
 }
 

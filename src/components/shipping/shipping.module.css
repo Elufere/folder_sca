@@ -13,9 +13,16 @@
     }
 }
 
-@media (max-width: 884px) and (max-width: 391px){
+@media (max-width: 884px) and (max-width: 429px){
     .shipping p{
         width: 702px;
+    }
+}
+
+@media (max-width: 429px) and (min-width: 391px) {
+    .shipping p{
+        width: 360px;
+        font-size: 17px;
     }
 }
 
