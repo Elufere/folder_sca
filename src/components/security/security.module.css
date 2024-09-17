@@ -203,6 +203,11 @@
         line-height: 31.43px;
         padding: 8px;
     }
+
+    .confidence {
+        display: flex;
+        flex-direction: column;
+    }
     
     .logo p{
         width: 357px;

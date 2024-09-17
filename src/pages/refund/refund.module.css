@@ -1,7 +1,7 @@
 .refund {
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 5px;
     padding-left: 20px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -12,7 +12,7 @@
     padding-left: 77px;
     padding-right: 191px;
     margin-bottom: 20px;
-    margin-top: 150px;
+    margin-top: 90px;
     gap: 98px;
 }
 
@@ -65,7 +65,7 @@
 }
 
 
-@media (max-width: 884px) {
+@media (max-width: 884px) and (min-width: 391px) {
     .buyerProtection p, .buyerProtection h3, .buyerProtection li{
         width: 780px;
         font-family: "Inter";
@@ -73,6 +73,18 @@
         font-size: 18px;
         line-height: 33.25px;
         color: rgba(64, 63, 63, 1);
+    }
+}
+
+@media (max-width: 391px) {
+    .refund{
+        padding-left: 1px;
+        padding-top: 10px;
+    }
+    .buyerProtection p, .buyerProtection h3, .buyerProtection li{
+        width: 290px;
+        font-size: 13px;
+        line-height: 23.25px;
     }
 }
 

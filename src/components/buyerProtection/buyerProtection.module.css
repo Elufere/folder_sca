@@ -14,8 +14,16 @@
 }
 
 
-@media (max-width: 884px) {
+@media (max-width: 884px) and (min-width: 391px){
     .buyerProtection p {
         width: 620px;
+    }
+}
+
+
+@media (max-width: 391px) {
+    .buyerProtection p {
+        width: 360px;
+        font-size: 16px;
     }
 }

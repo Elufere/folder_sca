@@ -87,9 +87,9 @@
 @media (max-width: 428px){
     
   .policy h2, .policy h3, .policy p, .policy li{
-    width: 360px;
-    font-size: 20px;
-    line-height: 44.78px;  
+    width: 320px;
+    font-size: 16px;
+    line-height: 22.78px;  
   }
 
 }

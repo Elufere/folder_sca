@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from "./standards.module.css";
+import StandardStyles from "./standards.module.css";
 import { IoCheckmarkOutline } from "react-icons/io5";
 
 
@@ -7,12 +7,12 @@ export function Standards() {
     
 
     return (
-        <div className={Styles.standards}>
-            <div className={Styles.left}>
+        <div className={StandardStyles.standards}>
+            <div className={StandardStyles.left}>
                 <h2>Enterprise-grade security</h2>
                 <span>We embrace robust security solutions that aligns with global best standards</span>
             </div>
-            <div className={Styles.right}>
+            <div className={StandardStyles.right}>
                 <span><IoCheckmarkOutline /> SSL/TLS Encryption</span>
                 <span><IoCheckmarkOutline /> Payment Gateway Security</span>
                 <span><IoCheckmarkOutline /> Two-Factor Authentication</span>
