@@ -131,10 +131,14 @@
         font-size: 14px;
         line-height: 20px;
     }
-
+    
     .right span{
+        display: flex;
+        align-items: center;
+        gap: 5px;
         margin-left: -15px;
         width: 330px;
+        font-size: 14px;
     }
 }
 
@@ -164,9 +168,12 @@
     }
 
     .right span{
+        display: flex;
+        align-items: center;
+        gap: 5px;
         margin-left: -15px;
         width: 330px;
-        font-size: 23px;
+        font-size: 14px;
     }
 }
 
@@ -196,8 +203,11 @@
     }
 
     .right span{
+        display: flex;
+        align-items: center;
+        gap: 5px;
         margin-left: -15px;
         width: 330px;
-        font-size: 23px;
+        font-size: 14px;
     }
 }

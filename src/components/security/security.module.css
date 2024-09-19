@@ -15,8 +15,14 @@
 .confidence{
     width: 100%;
     display: flex;
+    flex-direction: column;
     background: rgba(233, 245, 246, 1);
     margin-top: -2px;
+}
+
+.top{
+    display: flex;
+    font-display: row;
 }
 
 .left{
@@ -188,150 +194,290 @@
 }
 
 @media (max-width: 885px) and (min-width: 835px){
-    .confidence{
+    .security img{
+        width: 884px;
+        height: 432px;
+        object-fit: cover;
+    }
+
+    .confidence {
         display: flex;
         flex-direction: column;
     }
 
-    .left p {
-        width: 880px;
-        padding-left: 20px;
+    .top{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .left p{
+        width: 841px;
+        height: 201px;
         font-size: 45px;
+        line-height: 55.43px;
+        padding: 8px;
     }
 
     .logo p{
+        width: 557px;
+        height: 105px;
+        font-size: 23px;
+        line-height: 16.34px;
         margin-top: -130px;
-        font-size: 35px;
+        margin-bottom: -10px;
     }
 
     .logo img{
-        width: 100px;
-        height: 100px;
+        margin-right: 8px;
+        margin-left: 10px;
+        margin-top: -30px;
+        width: 40.65px;
+        height: 40.54px;
         object-fit: cover;
     }
 
-    .right {
-        display: flex;
-        align-items: center;
-        gap: -40px;
-    }
-
     .right p{
-        margin-left: 5px;
-        margin-top: -20px;
+        width: 757px;
+        height: 105px;
+        line-height: 35px;
+        font-size: 29px;
+        margin-left: 6px;
+        margin-top: 30px;
+        margin-bottom: 35px;
     }
 
-    .right button {
-        
-        margin-left: 5px;
-    }
-
-    .faq p{
-        font-size: 25px;
-    }
-}
-
-
-@media (max-width: 835px) and (min-width: 801px){
-    .confidence{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .left p {
-        width: 880px;
-        padding-left: 20px;
-        font-size: 45px;
-    }
-
-    .logo p{
-        margin-top: -130px;
-        font-size: 35px;
-    }
-
-    .logo img{
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-    }
-
-    .right {
-        display: flex;
-        align-items: center;
-        gap: -40px;
-    }
-
-    .right p{
-        margin-left: 5px;
-        margin-top: -20px;
-    }
-
-    .right button {
-        
-        margin-left: 5px;
-    }
-
-    .faq p{
-        width: 590px;
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 801px) and (min-width: 429px){
-    .confidence{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .left p {
-        width: 750px;
-        padding-left: 20px;
-        font-size: 30px;
-    }
-
-    .logo p{
-        margin-top: -250px;
-        font-size: 35px;
-    }
-
-    .logo img{
-        width: 90px;
-        height: 90px;
-        object-fit: cover;
-    }
-
-    .right {
-        display: flex;
-        align-items: center;
-        gap: -40px;
-    }
-
-    .right p{
-        margin-left: 5px;
-        margin-top: -20px;
-    }
-
-    .right button {
-        
-        margin-left: 5px;
+    .right button{
+        width: 210px;
+        height: 42px;
+        /* font-size: 15px; */
+        margin-left: 6px;
+        margin-bottom: 170px;
     }
 
     .faq p{
         width: 650px;
         font-size: 25px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+    .expandedContent li {
+        width: 530px;
+        font-size: 16px;
+        line-height: 30.2px;
+        margin-left: -30px;
+    }
+
+    .faqExpandedContent h3{
+        width: 330px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+    
+    .faqExpandedContent li {
+        width: 520px;
+        font-size: 16px;
+        margin-left: -30px;
     }
 }
 
-@media (max-width: 429px) and (min-width: 391px){
+
+@media (max-width: 835px) and (min-width: 801px){
     .security img{
-        width: 440px;
-    }   .confidence {
+        width: 429px;
+        height: 232px;
+    }
+
+    .confidence {
         display: flex;
         flex-direction: column;
     }
 
+    .top{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
     .left p{
+        width: 641px;
+        height: 201px;
+        font-size: 45px;
+        line-height: 45.43px;
+        padding: 8px;
+    }
+
+    .logo p{
+        width: 357px;
+        height: 105px;
+        font-size: 13px;
+        line-height: 16.34px;
+        margin-top: -60px;
+        margin-bottom: -40px;
+    }
+
+    .logo img{
+        margin-right: 8px;
+        margin-left: 10px;
+        margin-top: -30px;
+        width: 40.65px;
+        height: 40.54px;
+        object-fit: cover;
+    }
+
+    .right p{
+        width: 557px;
+        height: 105px;
+        line-height: 35px;
+        font-size: 29px;
+        margin-left: 6px;
+        margin-top: 30px;
+        margin-bottom: 75px;
+    }
+
+    .right button{
+        width: 210px;
+        height: 42px;
+        /* font-size: 15px; */
+        margin-left: 6px;
+        margin-bottom: 170px;
+    }
+
+    .faq p{
+        width: 650px;
+        font-size: 25px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+    .expandedContent li {
+        width: 530px;
+        font-size: 16px;
+        line-height: 30.2px;
+        margin-left: -30px;
+    }
+
+    .faqExpandedContent h3{
         width: 330px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+    
+    .faqExpandedContent li {
+        width: 520px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 801px){
+    .security img{
+        width: 429px;
+        height: 232px;
+    }
+
+    .confidence {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .left p{
+        width: 641px;
+        height: 201px;
+        font-size: 45px;
+        line-height: 45.43px;
+        padding: 8px;
+    }
+
+    .logo p{
+        width: 357px;
+        height: 105px;
+        font-size: 13px;
+        line-height: 16.34px;
+        margin-top: -60px;
+        margin-bottom: -40px;
+    }
+
+    .logo img{
+        margin-right: 8px;
+        margin-left: 10px;
+        margin-top: -30px;
+        width: 40.65px;
+        height: 40.54px;
+        object-fit: cover;
+    }
+
+    .right p{
+        width: 557px;
+        height: 105px;
+        line-height: 35px;
+        font-size: 29px;
+        margin-left: 6px;
+        margin-top: 30px;
+        margin-bottom: 75px;
+    }
+
+    .right button{
+        width: 210px;
+        height: 42px;
+        /* font-size: 15px; */
+        margin-left: 6px;
+        margin-bottom: 170px;
+    }
+
+    .faq p{
+        width: 650px;
+        font-size: 25px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+    .expandedContent li {
+        width: 530px;
+        font-size: 16px;
+        line-height: 30.2px;
+        margin-left: -30px;
+    }
+
+    .faqExpandedContent h3{
+        width: 330px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+    
+    .faqExpandedContent li {
+        width: 520px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 429px) and (min-width: 413px){
+    .security img{
+        width: 429px;
+        height: 232px;
+    }
+
+    .confidence {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .left p{
+        width: 341px;
         height: 201px;
         font-size: 25px;
         line-height: 31.43px;
@@ -344,28 +490,120 @@
         font-size: 13px;
         line-height: 16.34px;
         margin-top: -60px;
+        margin-bottom: -40px;
     }
 
     .logo img{
         margin-right: 8px;
         margin-left: 10px;
-        margin-top: -90px;
+        margin-top: -30px;
         width: 40.65px;
         height: 40.54px;
         object-fit: cover;
     }
 
     .right p{
-        width: 340px;
+        width: 357px;
         height: 105px;
-        margin-left: 20px;
-        margin-top: -10px;
-        margin-bottom: 90px;
+        font-size: 19px;
+        margin-left: 6px;
+        margin-top: -40px;
+        margin-bottom: 35px;
     }
 
     .right button{
-        margin-left: 23px;
-        margin-bottom: 20px;
+        width: 110px;
+        height: 32px;
+        /* font-size: 15px; */
+        margin-left: 6px;
+        margin-bottom: 170px;
+    }
+
+    .faq p{
+        width: 350px;
+        font-size: 14px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+    .expandedContent li {
+        width: 330px;
+        font-size: 16px;
+        line-height: 30.2px;
+        margin-left: -30px;
+    }
+
+    .faqExpandedContent h3{
+        width: 330px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+    
+    .faqExpandedContent li {
+        width: 320px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 413px) and (min-width: 391px){
+    .security img{
+        width: 417px;
+        height: 232px;
+    }
+
+    .confidence {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .left p{
+        width: 341px;
+        height: 201px;
+        font-size: 25px;
+        line-height: 31.43px;
+        padding: 8px;
+    }
+
+    .logo p{
+        width: 357px;
+        height: 105px;
+        font-size: 13px;
+        line-height: 16.34px;
+        margin-top: -60px;
+        margin-bottom: -40px;
+    }
+
+    .logo img{
+        margin-right: 8px;
+        margin-left: 10px;
+        margin-top: -30px;
+        width: 40.65px;
+        height: 40.54px;
+        object-fit: cover;
+    }
+
+    .right p{
+        width: 357px;
+        height: 105px;
+        font-size: 19px;
+        margin-left: 6px;
+        margin-top: -40px;
+        margin-bottom: 35px;
+    }
+
+    .right button{
+        width: 110px;
+        height: 32px;
+        /* font-size: 15px; */
+        margin-left: 6px;
+        margin-bottom: 170px;
     }
 
     .faq p{
@@ -396,7 +634,6 @@
 }
 
 
-
 @media (max-width: 391px) and (min-width: 360px) {
     .security img{
         width: 390px;
@@ -408,8 +645,14 @@
         flex-direction: column;
     }
 
+    .top{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
     .left p{
-        width: 330px;
+        width: 341px;
         height: 201px;
         font-size: 25px;
         line-height: 31.43px;
@@ -422,28 +665,33 @@
         font-size: 13px;
         line-height: 16.34px;
         margin-top: -60px;
+        margin-bottom: -40px;
     }
 
     .logo img{
         margin-right: 8px;
         margin-left: 10px;
-        margin-top: -90px;
+        margin-top: -30px;
         width: 40.65px;
         height: 40.54px;
         object-fit: cover;
     }
 
     .right p{
-        width: 340px;
+        width: 357px;
         height: 105px;
-        margin-left: 20px;
-        margin-top: -10px;
-        margin-bottom: 90px;
+        font-size: 19px;
+        margin-left: 6px;
+        margin-top: -40px;
+        margin-bottom: 35px;
     }
 
     .right button{
-        margin-left: 23px;
-        margin-bottom: 20px;
+        width: 110px;
+        height: 32px;
+        /* font-size: 15px; */
+        margin-left: 6px;
+        margin-bottom: 170px;
     }
 
     .faq p{

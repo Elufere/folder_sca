@@ -21,25 +21,26 @@ export function Security() {
         <div className={Styles.security}>
             <img src="./images/box.jpeg" alt="" />
             <div className={Styles.confidence}>
-                <div className={Styles.left}>
-                    <p>"Shop with confidence knowing that all transactions are committed to ensuring a safe and trustworthy experience for all our users."</p>
-                    <div className={Styles.logo}>
-                        <p>We are trusted by over 10,000 sellers and buyers</p>
-                            <img src="./images/fabric.jpeg" alt="" />
-                            <img src="./images/ambrose.jpeg" alt="" />
-                            <img src="./images/ideal.jpeg" alt="" />
-                            <img src="./images/alluring.png" alt="" />
-                            <img src="./images/best.jpeg" alt="" />
-                    
+                <div className={Styles.top}>
+                    <div className={Styles.left}>
+                        <p>"Shop with confidence knowing that all transactions are committed to ensuring a safe and trustworthy experience for all our users."</p>
+                    </div>
+                    <div className={Styles.right}>
+                        <p>Money back guaranteed on all transactions. Our Order Protection fee applies if buyers receive an item that is considerably different than described.</p>
+                        <Link to="/refund">
+                            <button>LEARN MORE</button>
+                        </Link>
                     </div>
                 </div>
-                <div className={Styles.right}>
-                    <p>Money back guaranteed on all transactions. Our Order Protection fee applies if buyers receive an item that is considerably different than described.</p>
-                    <Link to="/refund">
-                        <button>LEARN MORE</button>
-                    </Link>
-                </div>
+            <div className={Styles.logo}>
+                    <p>We are trusted by over 10,000 sellers and buyers</p>
+                        <img src="./images/fabric.jpeg" alt="" />
+                        <img src="./images/ambrose.jpeg" alt="" />
+                        <img src="./images/ideal.jpeg" alt="" />
+                        <img src="./images/alluring.png" alt="" />
+                        <img src="./images/best.jpeg" alt="" />
             </div>
+        </div>
             <div className={Styles.faq}>
                 <p onClick={handleClick}>Why you should donate or sell your pre-loved items <IoIosArrowForward /></p>
                 {open && (
