@@ -504,69 +504,69 @@
 
 @media (max-width: 376px) {
     .hero{
-     display: flex;
-     flex-direction: column;
-     margin-bottom: 20px;
-    }
- 
-    .top{
-     display: flex;
-     flex-direction: column;
-    }
- 
-     .left {
-         width: 100%; 
-         margin-left: -5px;
-     }
-     
-     .left h2{
-         width: 323px;
-         height: 103px;
-         font-size: 25px;
-         line-height: 31.43px;
-     }
-     
-     .left p {
-         width: 336px;
-         height: 93px;
-         font-family: "Source Sans Pro";
-         font-weight: 400;
-         font-size: 17px;
-         line-height: 21.37px;
-         color: rgba(0, 0, 0, 1);
-     }
-     
-     .left span {
-         font-size: 22px;
-         line-height: 32px;
-         margin-top: 10px;
-         text-align: center; 
-     }
- 
-     .appDownload span{
-         width: 225px;
-         height: 17px;
-         font-weight: 700;
-         font-size: 18px;
-         line-height: 22.64px;
-     }
-     
-     .downloadWrapper {
-         gap: 10px;
-         margin-top: 20px; 
-     }
- 
-     .downloadWrapper img{
-         width: 106px;
-         height: 36px;
-     }
-     
-     .right img {
-         width: 306px;
-         height: 220px;
-         margin-top: 20px; 
-         margin-left: 13px;
-     }
+        display: flex;
+        flex-direction: column;
+       }
+    
+       .top{
+        display: flex;
+        flex-direction: column;
+       }
+    
+        .left {
+            width: 100%; 
+            margin-left: -5px;
+        }
+        
+        .left h2{
+            width: 350px;
+            height: 103px;
+            font-size: 20px;
+            line-height: 31.43px;
+        }
+        
+        .left p {
+            width: 380px;
+            height: 93px;
+            font-family: "Source Sans Pro";
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 21.37px;
+            color: rgba(0, 0, 0, 1);
+        }
+        
+        .left span {
+            font-size: 22px;
+            line-height: 32px;
+            margin-top: 10px;
+            text-align: center; 
+        }
+    
+        .appDownload span{
+            width: 225px;
+            height: 17px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22.64px;
+        }
+        
+        .downloadWrapper {
+            gap: 10px;
+            margin-top: 20px; 
+        }
+    
+        .downloadWrapper img{
+            width: 106px;
+            height: 36px;
+        }
+        
+        .right img {
+            width: 340px;
+            height: 220px;
+            margin-top: 20px; 
+            margin-left: 13px;
+            object-fit: cover;
+        }
  } 
 
 

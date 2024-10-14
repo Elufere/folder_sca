@@ -144,7 +144,42 @@
 }
 
 
-@media (max-width: 391px) and (min-width: 361px) {
+@media (max-width: 391px) and (min-width: 376px) {
+    .standards{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .left{
+        margin-left: -20px;
+        margin-bottom: -290px;
+    
+    }
+
+    .left h2{
+        width: 330px;
+        font-size: 24px;
+        margin-bottom: -20px;
+    }
+
+    .left span{
+        width: 330px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .right span{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-left: -15px;
+        width: 330px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 376px) {
     .standards{
         display: flex;
         flex-direction: column;

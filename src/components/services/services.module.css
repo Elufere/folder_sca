@@ -350,6 +350,35 @@
     } 
 }
 
+@media (max-width: 376px) {
+    .header{
+        margin-left: -8px;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pHeader{
+        width: 300px;
+        height: 161px;
+        font-size: 20px;
+        line-height: 24.2px;
+        margin-left: 52px;
+    }
+
+   .services img{
+        width: 413px;
+        height: 168px;
+        margin-top: 10px;
+        object-fit: contain;
+    }
+
+    .cards{
+        flex-direction: column;
+        margin-top: 30px;
+    } 
+}
+
 @media (max-width: 360px) and (min-width: 321px) {
     .header{
         margin-left: -8px;

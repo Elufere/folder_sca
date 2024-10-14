@@ -721,6 +721,179 @@
     }
 } 
 
+@media (max-width: 415px) {
+    .security img{
+        width: 390px;
+        height: 232px;
+    }
+
+    .confidence {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .left p{
+        width: 341px;
+        height: 201px;
+        font-size: 25px;
+        line-height: 31.43px;
+        padding: 8px;
+    }
+
+    .logo p{
+        width: 357px;
+        height: 105px;
+        font-size: 13px;
+        line-height: 16.34px;
+        margin-top: -60px;
+        margin-bottom: -40px;
+    }
+
+    .logo img{
+        margin-right: 8px;
+        margin-left: 10px;
+        margin-top: -30px;
+        width: 40.65px;
+        height: 40.54px;
+        object-fit: cover;
+    }
+
+    .right p{
+        width: 357px;
+        height: 105px;
+        font-size: 19px;
+        margin-left: 6px;
+        margin-top: -40px;
+        margin-bottom: 35px;
+    }
+
+    .right button{
+        width: 110px;
+        height: 32px;
+        /* font-size: 15px; */
+        margin-left: 6px;
+        margin-bottom: 170px;
+    }
+
+    .faq p{
+        width: 350px;
+        font-size: 14px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+    .expandedContent li {
+        width: 330px;
+        font-size: 16px;
+        line-height: 30.2px;
+        margin-left: -30px;
+    }
+
+    .faqExpandedContent h3{
+        width: 330px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+    
+    .faqExpandedContent li {
+        width: 320px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .security img{
+        width: 390px;
+        height: 232px;
+    }
+
+    .confidence {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .left p{
+        width: 341px;
+        height: 201px;
+        font-size: 25px;
+        line-height: 31.43px;
+        padding: 8px;
+    }
+
+    .logo p{
+        width: 357px;
+        height: 105px;
+        font-size: 13px;
+        line-height: 16.34px;
+        margin-top: -60px;
+        margin-bottom: -40px;
+    }
+
+    .logo img{
+        margin-right: 8px;
+        margin-left: 10px;
+        margin-top: -30px;
+        width: 40.65px;
+        height: 40.54px;
+        object-fit: cover;
+    }
+
+    .right p{
+        width: 357px;
+        height: 105px;
+        font-size: 19px;
+        margin-left: 6px;
+        margin-top: -40px;
+        margin-bottom: 35px;
+    }
+
+    .right button{
+        width: 110px;
+        height: 32px;
+        /* font-size: 15px; */
+        margin-left: 6px;
+        margin-bottom: 170px;
+    }
+
+    .faq p{
+        width: 350px;
+        font-size: 14px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+    }
+
+    .expandedContent li {
+        width: 330px;
+        font-size: 16px;
+        line-height: 30.2px;
+        margin-left: -30px;
+    }
+
+    .faqExpandedContent h3{
+        width: 330px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+    
+    .faqExpandedContent li {
+        width: 320px;
+        font-size: 16px;
+        margin-left: -30px;
+    }
+}
 
 @media (max-width: 321px){
     .security img{
