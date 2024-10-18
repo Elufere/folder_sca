@@ -13,7 +13,7 @@
 
 .left {
     flex: 1;
-    position: relative; 
+    /* position: relative;  */
 }
 
 
@@ -26,7 +26,7 @@
     font-size: 45px;
     line-height: 56.57px;
     color: rgba(37, 128, 179, 1);
-    position: relative; 
+    /* position: relative;  */
     margin-top: 110px;
     padding: 5px;
 }
@@ -39,7 +39,7 @@
     font-size: 28px;
     line-height: 35.2px;
     color: rgba(0, 0, 0, 1);
-    position: relative;
+    /* position: relative; */
     margin-top: 30px;
     padding: 3px;
 }
@@ -53,7 +53,7 @@
     line-height: 40.22px;
     padding: 4px;
     color: rgba(37, 128, 179, 1);
-    position: relative;
+    /* position: relative; */
     margin-top: 30px;
 }
 
@@ -69,7 +69,7 @@
     display: flex;
     flex-direction: row; 
     gap: 75px;
-    position: relative;
+    /* position: relative; */
     margin-top: 30px;
 }
 
@@ -81,14 +81,14 @@
 
 .right {
     flex: 1;
-    position: relative; 
+    /* position: relative;  */
 }
 
 .right img {
     width: 100%;
     max-width: 488px;
     height: auto;
-    position: relative; 
+    /* position: relative;  */
     margin-top: 120px;
 }
 
