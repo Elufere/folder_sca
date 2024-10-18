@@ -17,10 +17,10 @@ export function Home() {
     return (
         <div className={Styles.home}>
                <Hero />
-               <Services />
+               {/* <Services />
                <Security />
                <Standards />
-               <Join />
+               <Join /> */}
         </div>
     );
 }
