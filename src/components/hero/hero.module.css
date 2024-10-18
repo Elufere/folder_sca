@@ -305,6 +305,7 @@
     .hero{
         display: flex;
         flex-direction: column;
+        background-color: green;
        }
     
        .top{
@@ -372,6 +373,8 @@
     .hero{
         display: flex;
         flex-direction: column;
+        background-color: gold;
+
        }
     
        .top{
@@ -440,6 +443,7 @@
     .hero{
         display: flex;
         flex-direction: column;
+        background-color: red;
        }
     
        .top{
@@ -508,6 +512,7 @@
     .hero{
         display: flex;
         flex-direction: column;
+        background-color: yellow;
        }
     
        .top{
@@ -576,6 +581,7 @@
     .hero{
         display: flex;
         flex-direction: column;
+        background-color: purple;
        }
     
        .top{
