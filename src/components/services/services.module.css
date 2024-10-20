@@ -287,10 +287,9 @@
     .cards{
         flex-direction: column;
         margin-top: 100px;
-        background-color: rgb(75, 71, 49);
     } 
     .sellers, .buyers,.request{
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
  }
 
