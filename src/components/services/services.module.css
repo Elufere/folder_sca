@@ -286,10 +286,14 @@
     
     .cards{
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 130px;
     } 
     .sellers, .buyers,.request{
         margin-bottom: 50px;
+    }
+
+    .sellers span, .buyers span,.request span{
+        font-size: 23px;
     }
  }
 
