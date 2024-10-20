@@ -311,6 +311,7 @@
     
        .top{
         flex-direction: column;
+        gap: 20px;
        }
     
         .left {
@@ -342,8 +343,16 @@
             text-align: center; 
         }
 
+        .right img {
+            width: 340px;
+            height: 220px;
+            margin-top: 20px; 
+            margin-bottom: 20px; 
+            margin-left: 13px;
+            object-fit: cover;
+        }
         .appDownload{
-            margin-top: 15px;
+            /* margin-top: 15px; */
         }
     
         .appDownload span{
@@ -364,13 +373,6 @@
             height: 36px;
         }
         
-        .right img {
-            width: 340px;
-            height: 220px;
-            margin-top: 20px; 
-            margin-left: 13px;
-            object-fit: cover;
-        }
 } 
 
 @media (max-width: 394px) and (min-width: 391px) {
