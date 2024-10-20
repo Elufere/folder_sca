@@ -322,7 +322,7 @@
         .left h2{
             width: 350px;
             height: 103px;
-            margin-top: 10px;
+            margin-top: 20px;
             font-size: 20px;
             line-height: 31.43px;
         }
@@ -333,7 +333,7 @@
             font-family: "Source Sans Pro";
             font-weight: 400;
             font-size: 19px;
-            margin-top: 10px;
+            margin-top: 20px;
             line-height: 21.37px;
             color: rgba(0, 0, 0, 1);
         }
@@ -348,7 +348,7 @@
         .right img {
             width: 340px;
             height: 220px;
-            margin-top: -10px; 
+            margin-top: 10px; 
             margin-bottom: 20px; 
             margin-left: 13px;
             object-fit: cover;
