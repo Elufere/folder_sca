@@ -322,7 +322,7 @@
         .left h2{
             width: 350px;
             height: 103px;
-            margin-top: 70px;
+            margin-top: 80px;
             font-size: 20px;
             line-height: 31.43px;
         }
@@ -348,7 +348,7 @@
         .right img {
             width: 340px;
             height: 220px;
-            margin-top: 10px; 
+            margin-top: -10px; 
             margin-bottom: 20px; 
             margin-left: 13px;
             object-fit: cover;
