@@ -321,7 +321,7 @@
         .left h2{
             width: 350px;
             height: 103px;
-            margin-top: 95px;
+            margin-top: 87px;
             font-size: 20px;
             line-height: 31.43px;
         }
@@ -332,7 +332,7 @@
             font-family: "Source Sans Pro";
             font-weight: 400;
             font-size: 19px;
-            margin-top: -10px;
+            margin-top: -15px;
             line-height: 21.37px;
             color: rgba(0, 0, 0, 1);
         }
@@ -365,7 +365,7 @@
         }
         
         .downloadWrapper {
-            margin-left: 10px;
+            margin-right: 10px;
             margin-top: 20px; 
         }
     
