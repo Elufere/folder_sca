@@ -731,11 +731,9 @@
 } 
 
 @media (max-width: 415px) {
-    .security{
-        background-color: orange;
-    }
+
     .security img{
-        width: 412px;
+        width: 411px;
         height: 232px;
     }
 
