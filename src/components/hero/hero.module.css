@@ -1,29 +1,95 @@
-.top {
+.hero {
+    max-width: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    height: calc(100vh -75px);
+    padding-left: 20px;
 }
 
-.left, .right, .appDownload {
+.top{
+    display: flex;
+}
+
+
+.left {
     flex: 1;
+    /* position: relative;  */
 }
 
-.appDownload {
-    margin-top: 20px;
-    text-align: center;
+
+.left h2 {
+    width: 100%;
+    max-width: 582px;
+    height: 181px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56.57px;
+    color: rgba(37, 128, 179, 1);
+    /* position: relative;  */
+    margin-top: 110px;
+    padding: 5px;
+}
+
+.left p {
+    width: 551px;
+    height: 146px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35.2px;
+    color: rgba(0, 0, 0, 1);
+    /* position: relative; */
+    margin-top: 30px;
+    padding: 3px;
+}
+
+.left span {
+    width: 100%;
+    max-width: 418px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40.22px;
+    padding: 4px;
+    color: rgba(37, 128, 179, 1);
+    /* position: relative; */
+    margin-top: 30px;
+}
+
+.appDownload span{
+    font-family: "Source Sans Pro";
+    font-size: 700px;
+    font-size: 32px;
+    line-height: 40.22px;
+    color: rgba(0, 0, 0, 1);
 }
 
 .downloadWrapper {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 10px;
+    flex-direction: row; 
+    gap: 75px;
+    /* position: relative; */
+    margin-top: 30px;
 }
 
-.downloadWrapper img {
-    width: 106px;
-    height: 36px;
+.downloadWrapper img{
+    width: 229px;
+    height: 80px;
+}
+
+
+.right {
+    flex: 1;
+    /* position: relative;  */
+}
+
+.right img {
+    width: 100%;
+    max-width: 488px;
+    height: auto;
+    /* position: relative;  */
+    margin-top: 120px;
 }
 
 /* Media Query for screens 768px and smaller */
@@ -236,32 +302,76 @@
 } 
 
 @media (max-width: 429px) and (min-width: 394px) {
-    .top {
+    .hero{
+        display: flex;
         flex-direction: column;
-        align-items: center;
-    }
+        gap: 30px;
+        background-color: green;
+       }
+    
+       .top{
+        flex-direction: column;
+       }
+    
+        .left {
+            width: 100%; 
+            margin-left: -5px;
+        }
+        
+        .left h2{
+            width: 350px;
+            height: 103px;
+            font-size: 20px;
+            line-height: 31.43px;
+        }
+        
+        .left p {
+            width: 380px;
+            height: 93px;
+            font-family: "Source Sans Pro";
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 21.37px;
+            color: rgba(0, 0, 0, 1);
+        }
+        
+        .left span {
+            font-size: 22px;
+            line-height: 32px;
+            margin-top: 10px;
+            text-align: center; 
+        }
 
-    .appDownload {
-        margin-top: 15px;
-    }
-
-    .left h2 {
-        font-size: 20px;
-    }
-
-    .left p {
-        font-size: 19px;
-    }
-
-    .appDownload span {
-        font-size: 18px;
-    }
-
-    .downloadWrapper img {
-        width: 106px;
-        height: 36px;
-    }
-}
+        .appDownload{
+            margin-top: 15px;
+        }
+    
+        .appDownload span{
+            width: 225px;
+            height: 17px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22.64px;
+        }
+        
+        .downloadWrapper {
+            gap: 10px;
+            margin-top: 20px; 
+        }
+    
+        .downloadWrapper img{
+            width: 106px;
+            height: 36px;
+        }
+        
+        .right img {
+            width: 340px;
+            height: 220px;
+            margin-top: 20px; 
+            margin-left: 13px;
+            object-fit: cover;
+        }
+} 
 
 @media (max-width: 394px) and (min-width: 391px) {
     .hero{
