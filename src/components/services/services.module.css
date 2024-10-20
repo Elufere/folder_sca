@@ -235,6 +235,7 @@
         font-size: 17px;
         display: flex;
         justify-content: center;
+        background-color: green;
     }
 
     .pHeader{
@@ -265,6 +266,8 @@
         font-size: 17px;
         display: flex;
         justify-content: center;
+        background-color: blueviolet;
+
     }
 
     .pHeader{
@@ -295,6 +298,8 @@
         font-size: 17px;
         display: flex;
         justify-content: center;
+        background-color: purple;
+
     }
 
     .pHeader{
