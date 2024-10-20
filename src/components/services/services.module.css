@@ -289,11 +289,18 @@
         margin-top: 130px;
     } 
     .sellers, .buyers,.request{
+        width: 271px;
         margin-bottom: 50px;
     }
 
     .sellers span, .buyers span,.request span{
+        width: 251px;
+        font-size: 32px;
+    }
+
+    .sellers p, .buyers p,.request p{
         font-size: 23px;
+        width: 271px;
     }
  }
 
