@@ -306,7 +306,6 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-        background-color: green;
        }
     
        .top{
@@ -333,7 +332,7 @@
             font-family: "Source Sans Pro";
             font-weight: 400;
             font-size: 19px;
-            margin-top: 10px;
+            margin-top: -10px;
             line-height: 21.37px;
             color: rgba(0, 0, 0, 1);
         }
@@ -348,7 +347,7 @@
         .right img {
             width: 340px;
             height: 220px;
-            margin-top: -30px; 
+            margin-top: -40px; 
             margin-bottom: 20px; 
             margin-left: 13px;
             object-fit: cover;
@@ -366,7 +365,7 @@
         }
         
         .downloadWrapper {
-            gap: 10px;
+            margin-left: 10px;
             margin-top: 20px; 
         }
     
