@@ -460,9 +460,7 @@
 }
 
 @media (max-width: 429px) and (min-width: 413px){
-    .security{
-        background-color: green;
-    }
+
     .security img{
         width: 45px;
         height: 232px;
@@ -550,9 +548,7 @@
 }
 
 @media (max-width: 413px) and (min-width: 391px){
-    .security{
-        background-color: red;
-    }
+
     .security img{
         width: 45px;
         height: 232px;
@@ -641,9 +637,7 @@
 
 
 @media (max-width: 391px) and (min-width: 360px) {
-    .security{
-        background-color: yellow;
-    }
+
     .security img{
         width: 39px;
         height: 232px;
@@ -733,7 +727,7 @@
 @media (max-width: 415px) {
 
     .security img{
-        width: 411px;
+        width: 412px;
         height: 232px;
     }
 
@@ -819,9 +813,7 @@
 }
 
 @media (max-width: 375px) {
-    .security{
-        background-color: purple;
-    }
+
     .security img{
         width: 390px;
         height: 232px;
@@ -909,9 +901,7 @@
 }
 
 @media (max-width: 321px){
-    .security{
-        background-color: green;
-    }
+
     .security img{
         width: 390px;
         height: 232px;
