@@ -346,7 +346,7 @@
         .right img {
             width: 340px;
             height: 220px;
-            margin-top: 20px; 
+            margin-top: -20px; 
             margin-bottom: 20px; 
             margin-left: 13px;
             object-fit: cover;
