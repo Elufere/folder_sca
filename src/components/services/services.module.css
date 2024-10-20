@@ -266,10 +266,9 @@
         font-size: 17px;
         display: flex;
         justify-content: center;
-        background-color: rgb(75, 71, 49);
-
+        
     }
-
+    
     .pHeader{
         width: 300px;
         height: 161px;
@@ -277,19 +276,22 @@
         line-height: 24.2px;
         margin-left: 52px;
     }
-
-   .services img{
+    
+    .services img{
         width: 413px;
         height: 168px;
         margin-top: 10px;
         object-fit: contain;
     }
-
+    
     .cards{
         flex-direction: column;
-        gap: 30px;
         margin-top: 100px;
+        background-color: rgb(75, 71, 49);
     } 
+    .sellers, .buyers,.request{
+        margin-bottom: 30px;
+    }
  }
 
 
