@@ -5,7 +5,7 @@ export function Team() {
     return (
         <div className={Styles.team}>
             <TeamMember
-                imageSrc="/images/afeez.jpeg"
+                // imageSrc="/images/afeez.jpeg"
                 firstName="Dr Afeez Babatunde"
                 lastName="Siyanbola"
                 title="Chief Executive Officer, Scavenge"
@@ -19,7 +19,7 @@ export function Team() {
             />
 
             <TeamMember
-                imageSrc="/images/clinton.jpg"
+                // imageSrc="/images/clinton.jpg"
                 firstName="Iyiola"
                 lastName="Omotayo"
                 title="Senior Software Engineer"
@@ -34,7 +34,7 @@ export function Team() {
             />
 
             <TeamMember
-                imageSrc="/images/fisto.jpg"
+                // imageSrc="/images/fisto.jpg"
                 firstName="Fisayo"
                 lastName="Omotayo"
                 title="Senior Software Engineer"
@@ -47,7 +47,7 @@ export function Team() {
             />
 
             <TeamMember
-                imageSrc="/images/aisha.jpg"
+                // imageSrc="/images/aisha.jpg"
                 firstName="Aishat"
                 lastName="Aliu"
                 title="Brand Manager, Scavenge"
@@ -62,7 +62,7 @@ export function Team() {
             />
 
             <TeamMember
-                imageSrc="/images/inno.jpg"
+                // imageSrc="/images/inno.jpg"
                 firstName="Innocent"
                 lastName="Elufere"
                 title="Tester and Administrator"
@@ -76,7 +76,7 @@ export function Team() {
             />
 
             <TeamMember
-                imageSrc="/images/bankole.jpg"
+                // imageSrc="/images/bankole.jpg"
                 firstName="Saheed"
                 lastName="Bankola"
                 title="Financial Advisor/Analyst"
