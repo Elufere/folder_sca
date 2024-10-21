@@ -86,46 +86,44 @@
 
 @media (max-width: 429px){
 
-    .team {
-        width: 100%; /* Adjust to take full width */
+    .team{
+        width: 100pxpx;
         padding: 10px;
-        margin-bottom: 20px; /* Reduce margin for spacing */
+        margin-bottom: 20px;
     }
     
-    .teamMemberInfo {
-        padding-top: 50px; /* Reduced padding for top spacing */
-        margin-bottom: 20px; /* Reduced bottom margin */
+    .teamMemberInfo{
+        padding-top: 90px;
+        margin-bottom: 20px;
     }
 
-    .right {
-        margin-left: -50px; /* Adjusted to center-align content better */
+    .right{
+        margin-left: -70px;
     }
 
-    .left img {
-        width: 140px;  /* Made the image smaller for mobile */
-        height: 180px;
+    .left img{
+        width: 170px;
+        height: 220px;
         object-fit: cover;
     }
 
-    .right h3 {
-        font-size: 14px; /* Decreased font size for first name */
-        line-height: 20px;
+    .right h3{
+        font-size: 16px;
+        line-height: 27.82px;
         color: rgba(0, 0, 0, 1);
     }
 
-    .right h2 {
-        font-size: 18px; /* Decreased font size for last name */
+    .right h2{
+        font-size: 20px;
     }
 
     .desc {
-        font-size: 16px; /* Reduced description font size for readability */
-        padding: 5px;
-        text-align: justify;
+        font-size: 18px;
     }
 
-    .title {
-        width: 200px; /* Adjusted width for better spacing */
-        word-spacing: 1px; /* Reduced word spacing */
-        font-size: 14px; /* Adjusted font size for title */
+    .title{
+       width: 230px;
+       word-spacing: 2px;
     }
 }
+
