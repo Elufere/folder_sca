@@ -116,14 +116,13 @@
     }
 
     .left{
-        
-    
+        margin-bottom: -40px;
     }
 
     .left h2{
         width: 380px;
         font-size: 24px;
-        margin-bottom: -20px;
+        margin-bottom: -30px;
     }
 
     .left span{
