@@ -783,13 +783,14 @@
         margin-top: 60px;
         margin-left: 6px;
         margin-bottom: 170px;
+        font-size: 15px;
     }
 
     .faq p{
         width: 350px;
         font-size: 14px;
         margin-left: -15px;
-        margin-bottom: -15px;
+        margin-bottom: 15px;
     }
 
     .expandedContent li {
