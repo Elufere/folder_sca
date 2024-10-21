@@ -141,7 +141,7 @@
     .right span{
         display: flex;
         align-items: center;
-        margin-left: -15px;
+        margin-left: 15px;
         width: 330px;
         font-size: 14px;
     }
