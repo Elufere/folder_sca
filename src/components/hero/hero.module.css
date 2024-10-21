@@ -57,6 +57,10 @@
     margin-top: 30px;
 }
 
+.appDownload{
+    display: block;
+}
+
 .appDownload span{
     font-family: "Source Sans Pro";
     font-size: 700px;
