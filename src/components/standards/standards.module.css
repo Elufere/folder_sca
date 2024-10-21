@@ -110,7 +110,6 @@
 
 @media (max-width: 429px) and (min-width: 391px) {
     .standards{
-        display: flex;
         flex-direction: column;
         background-color: red;
     }
@@ -134,12 +133,12 @@
     }
     
     .right span{
-        /* display: flex;
+        display: flex;
         align-items: center;
         gap: 5px;
         margin-left: -15px;
         width: 330px;
-        font-size: 14px; */
+        font-size: 14px;
     }
 }
 
