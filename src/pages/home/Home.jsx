@@ -16,9 +16,9 @@ export function Home() {
 
     return (
         <div className={Styles.home}>
-               <Hero />
+               {/* <Hero />
                <Services />
-               <Security />
+               <Security /> */}
                <Standards />
                <Join />
         </div>
