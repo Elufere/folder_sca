@@ -89,7 +89,7 @@
     .team{
         width: 428px;
         padding: 5px;
-        background-color: red;
+        margin-bottom: 40px;
     }
     
     .teamMemberInfo{
