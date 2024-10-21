@@ -320,6 +320,10 @@
         flex-direction: column;
         gap: 20px;
        }
+
+       .left, .right, .appDownload{
+        flex: 1;
+       }
     
         .left {
             width: 100%; 
