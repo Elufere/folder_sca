@@ -110,7 +110,6 @@
 
 @media (max-width: 429px) and (min-width: 391px) {
     .standards{
-        flex-direction: column;
         background-color: red;
     }
 
