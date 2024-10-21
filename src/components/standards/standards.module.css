@@ -118,8 +118,7 @@
     .left{
         width: 336px;
         height: 80px;
-        margin-bottom: -40px;
-        background-color: green;
+        margin-bottom: -2ss0px;
     }
 
     .left h2{
@@ -135,9 +134,9 @@
     }
 
     .right{
-        background-color: blue;
         width: 157px;
         height: 174px;
+        margin-bottom: 20px;
     }
     
     .right span{
