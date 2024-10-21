@@ -2,97 +2,39 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    height: calc(100vh -75px);
+    height: calc(100vh - 75px);
     padding-left: 20px;
 }
 
-.top{
+.top {
     display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
 }
 
-
-.left {
+.left, .right {
     flex: 1;
-    /* position: relative;  */
 }
 
-
-.left h2 {
-    width: 100%;
-    max-width: 582px;
-    height: 181px;
-    font-family: "Source Sans Pro";
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 56.57px;
-    color: rgba(37, 128, 179, 1);
-    /* position: relative;  */
-    margin-top: 110px;
-    padding: 5px;
-}
-
-.left p {
-    width: 551px;
-    height: 146px;
-    font-family: "Source Sans Pro";
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 35.2px;
-    color: rgba(0, 0, 0, 1);
-    /* position: relative; */
+.appDownload {
     margin-top: 30px;
-    padding: 3px;
-}
-
-.left span {
-    width: 100%;
-    max-width: 418px;
-    font-family: "Source Sans Pro";
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40.22px;
-    padding: 4px;
-    color: rgba(37, 128, 179, 1);
-    /* position: relative; */
-    margin-top: 30px;
-}
-
-.appDownload{
-    display: block;
-}
-
-.appDownload span{
-    font-family: "Source Sans Pro";
-    font-size: 700px;
-    font-size: 32px;
-    line-height: 40.22px;
-    color: rgba(0, 0, 0, 1);
+    text-align: center; 
+    width: 100%; 
 }
 
 .downloadWrapper {
     display: flex;
     flex-direction: row; 
     gap: 75px;
-    /* position: relative; */
+    justify-content: center; 
     margin-top: 30px;
-}
-
-.downloadWrapper img{
-    width: 229px;
-    height: 80px;
-}
-
-
-.right {
-    flex: 1;
-    /* position: relative;  */
 }
 
 .right img {
     width: 100%;
     max-width: 488px;
     height: auto;
-    /* position: relative;  */
     margin-top: 120px;
 }
 
