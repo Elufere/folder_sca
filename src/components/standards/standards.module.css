@@ -112,7 +112,6 @@
     .standards{
         display: flex;
         flex-direction: column;
-        background-color: red;
     }
 
     .left{
@@ -136,7 +135,7 @@
     .right{
         width: 157px;
         height: 174px;
-        margin-bottom: 20px;
+        margin-bottom: 200px;
     }
     
     .right span{
