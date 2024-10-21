@@ -116,6 +116,8 @@
     }
 
     .left{
+        width: 336px;
+        height: 80px;
         margin-bottom: -40px;
         background-color: green;
     }
@@ -134,7 +136,8 @@
 
     .right{
         background-color: blue;
-
+        width: 157px;
+        height: 174px;
     }
     
     .right span{
