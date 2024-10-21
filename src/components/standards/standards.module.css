@@ -117,6 +117,7 @@
 
     .left{
         margin-bottom: -40px;
+        background-color: green;
     }
 
     .left h2{
@@ -129,6 +130,11 @@
         width: 330px;
         font-size: 14px;
         line-height: 20px;
+    }
+
+    .right{
+        background-color: blue;
+
     }
     
     .right span{
