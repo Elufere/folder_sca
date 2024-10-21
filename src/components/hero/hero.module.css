@@ -16,7 +16,6 @@
 
 .left, .right {
     flex: 1;
-    /* position: relative;  */
 }
 
 
@@ -29,7 +28,6 @@
     font-size: 45px;
     line-height: 56.57px;
     color: rgba(37, 128, 179, 1);
-    /* position: relative;  */
     margin-top: 110px;
     padding: 5px;
 }
@@ -318,6 +316,7 @@
        }
     
        .top{
+        display: flex;
         flex-direction: column;
         gap: 20px;
        }
