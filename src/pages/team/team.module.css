@@ -67,7 +67,7 @@
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
     .teamMemberInfo {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
 
