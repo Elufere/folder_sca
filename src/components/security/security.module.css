@@ -487,7 +487,6 @@
         line-height: 1.5;
         padding: 1vw;
         margin: 2vh 0 -3vh 0; /* Adds space on top, reduces space below */
-        border: 1px solid red;
     }
 
     .logo p {
@@ -498,7 +497,7 @@
     }
 
     .logo img {
-        margin: -4vh 2vw 0;
+        margin: -4vh 2vw -2vh;
         width: 15vw;
         height: 51.54px;
         object-fit: cover;
