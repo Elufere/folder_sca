@@ -73,27 +73,26 @@
     .left img {
         width: 200px;
         height: 280px;
-        border: 1px solid blue;
-
     }
 
     .right {
         margin-left: 0;
         text-align: center;
         padding: 10px;
-        padding-top: 15px;
-        border: 1px solid red;
+        padding-top: 20px;
     }
 
     .right h3 {
         font-size: 28px;
         margin-bottom: 2px;
+        border: 1px solid red;
     }
 
     .right h2 {
         font-size: 48px;
         margin-top: 0;
         margin-bottom: 0;
+        border: 1px solid red;
     }
 
     .title {
