@@ -35,6 +35,7 @@
   
   @media (max-width: 361px) {
     .footer{
+      background-color: red;
       display: flex;
       align-items: center;
       justify-content: center;
