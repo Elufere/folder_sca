@@ -118,6 +118,7 @@
         width: 80%; 
         /* height: ;  */
         margin-bottom: 5px;
+        border: 1px solid green;
     }
 
     .left h2 {
@@ -130,6 +131,8 @@
         width: 100%; 
         font-size: 13px; 
         line-height: 20px;
+        border: 1px solid blue;
+
     }
 
     .right {
@@ -145,5 +148,6 @@
         width: 100%; 
         font-size: 14px; 
         white-space: nowrap;
+        border: 1px solid red;
     }
 }
