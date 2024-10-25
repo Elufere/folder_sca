@@ -481,7 +481,7 @@
         width: 80vw; /* Adapt text container width */
         font-size: 5vw; /* Responsive font size */
         line-height: 1.5;
-        padding: 1vw;
+        padding: 0;
         margin: 0 1vh;
     }
 
