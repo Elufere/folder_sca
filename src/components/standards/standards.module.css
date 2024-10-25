@@ -116,7 +116,7 @@
 
     .left {
         width: 80%; 
-        margin-bottom: -50px;
+        margin-bottom: -150px;
         border: 1px solid green;
     }
 
@@ -130,7 +130,7 @@
         width: 100%; 
         font-size: 13px; 
         line-height: 20px;
-        margin-bottom: 30px;
+        margin-bottom: -30px;
         border: 1px solid blue;
 
     }
