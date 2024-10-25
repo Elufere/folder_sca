@@ -90,13 +90,11 @@
 
 @media (max-width: 429px) {
     .refund{
-        width: 330px;
         padding-left: 1px;
         padding-top: 10px;
-        border: 1px solid red;
     }
     .buyerProtection p, .buyerProtection h3, .buyerProtection li{
-        width: 390px;
+        width: 360px;
         font-size: 14px;
         line-height: 23.25px;
     }
