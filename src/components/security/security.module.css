@@ -473,7 +473,8 @@
     .top {
         display: flex;
         flex-direction: column;
-        margin-bottom: 5vh; /* Use viewport height for spacing */
+        margin-bottom: 5vh; 
+        border: 1px solid red;
     }
 
     .left p {
@@ -481,8 +482,6 @@
         font-size: 5vw; /* Responsive font size */
         line-height: 1.5;
         padding: 1vw;
-        padding-bottom: 2px;
-        border: 1px solid red;
     }
 
     .logo p {
