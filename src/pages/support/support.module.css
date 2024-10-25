@@ -96,6 +96,22 @@
     }
 }
 
+@media (max-width: 429px) {
+    .support{
+        padding: 0;
+    }
+
+    .support h2{
+        font-size: 20px;
+    }
+
+    .phoneNum, .email {
+        font-size: 13px;
+        line-height: 20px;
+        color: rgba(37, 128, 179, 1);
+    }
+}
+
 @media (max-width: 360px) {
     .support{
         padding: 0;
