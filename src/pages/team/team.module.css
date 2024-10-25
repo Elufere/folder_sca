@@ -1,6 +1,6 @@
 .team {
     width: 100%;
-    min-height: calc(100vh - 75px);
+    height: calc(100vh -75px);
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -9,8 +9,6 @@
 .teamMemberInfo {
     display: flex;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 20px;
 }
 
 .left, .right {
@@ -23,24 +21,25 @@
     object-fit: cover;
 }
 
-.right {
+.right{
     margin-left: -290px;
 }
 
-.right h3 {
+.right h3{
     font-family: "Source Sans Pro";
     font-weight: 400;
     font-size: 46px;
-    line-height: 58px;
+    line-height: 57.82px;
     color: rgba(0, 0, 0, 1);
 }
 
-.title {
+.title{
     font-family: "Source Sans Pro";
     font-weight: 600;
     font-size: 38px;
-    line-height: 48px;
+    line-height: 47.77px;
     padding: 4px;
+    text-align: justify;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -48,7 +47,7 @@
     font-family: "Source Sans Pro";
     font-weight: 700;
     font-size: 96px;
-    line-height: 121px;
+    line-height: 120.67px;
     margin-top: -40px;
     margin-bottom: -40px;
     color: rgba(0, 0, 0, 1);
@@ -56,18 +55,19 @@
 
 .desc {
     padding: 20px;
+    width: 90%;
     font-family: "Source Sans Pro";
     font-weight: 400;
-    font-size: 20px;
+    font-size: 38px;
+    padding: 4px;
     color: rgba(0, 0, 0, 1);
     text-align: justify;
-    line-height: 1.5;
 }
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
     .teamMemberInfo {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
