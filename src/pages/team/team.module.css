@@ -1,6 +1,6 @@
 .team {
     width: 100%;
-    height: calc(100vh -75px);
+    min-height: calc(100vh - 75px);
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -9,6 +9,8 @@
 .teamMemberInfo {
     display: flex;
     align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
 .left, .right {
@@ -21,25 +23,24 @@
     object-fit: cover;
 }
 
-.right{
+.right {
     margin-left: -290px;
 }
 
-.right h3{
+.right h3 {
     font-family: "Source Sans Pro";
     font-weight: 400;
     font-size: 46px;
-    line-height: 57.82px;
+    line-height: 58px;
     color: rgba(0, 0, 0, 1);
 }
 
-.title{
+.title {
     font-family: "Source Sans Pro";
     font-weight: 600;
     font-size: 38px;
-    line-height: 47.77px;
+    line-height: 48px;
     padding: 4px;
-    text-align: justify;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -47,7 +48,7 @@
     font-family: "Source Sans Pro";
     font-weight: 700;
     font-size: 96px;
-    line-height: 120.67px;
+    line-height: 121px;
     margin-top: -40px;
     margin-bottom: -40px;
     color: rgba(0, 0, 0, 1);
@@ -55,78 +56,73 @@
 
 .desc {
     padding: 20px;
-    width: 90%;
     font-family: "Source Sans Pro";
     font-weight: 400;
-    font-size: 38px;
-    padding: 4px;
+    font-size: 20px;
     color: rgba(0, 0, 0, 1);
     text-align: justify;
+    line-height: 1.5;
 }
 
-
-@media (max-width: 884px) {
-    .left img{
-        width: 250px;
-        height: 340px;
-    }
-
-    .right h3{
-        font-size: 36px;
-    }
-
-    .right h2 {
-        font-size: 46px;
-    }
-
-    .desc{
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 429px){
-
-    .team {
-        width: 100%; /* Adjust to take full width */
-        padding: 10px;
-        margin-bottom: 20px; /* Reduce margin for spacing */
-        background-color: red;
-    }
-    
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
     .teamMemberInfo {
-        padding-top: 50px; /* Reduced padding for top spacing */
-        margin-bottom: 200px; /* Reduced bottom margin */
-    }
-
-    .right {
-        margin-left: -50px; /* Adjusted to center-align content better */
+        flex-direction: column;
+        align-items: center;
     }
 
     .left img {
-        width: 140px;  /* Made the image smaller for mobile */
-        height: 180px;
-        object-fit: cover;
+        width: 200px;
+        height: 280px;
+    }
+
+    .right {
+        margin-left: 0;
+        text-align: center;
     }
 
     .right h3 {
-        font-size: 14px; /* Decreased font size for first name */
-        line-height: 20px;
-        color: rgba(0, 0, 0, 1);
+        font-size: 28px;
     }
 
     .right h2 {
-        font-size: 18px; /* Decreased font size for last name */
-    }
-
-    .desc {
-        font-size: 16px; /* Reduced description font size for readability */
-        padding: 5px;
-        text-align: justify;
+        font-size: 48px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .title {
-        width: 200px; /* Adjusted width for better spacing */
-        word-spacing: 1px; /* Reduced word spacing */
-        font-size: 14px; /* Adjusted font size for title */
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .desc {
+        font-size: 18px;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 429px) {
+    .team {
+        padding: 10px;
+    }
+
+    .left img {
+        width: 140px;
+        height: 180px;
+    }
+
+    .right h3, .title {
+        font-size: 18px;
+    }
+
+    .right h2 {
+        font-size: 24px;
+    }
+
+    .desc {
+        font-size: 14px;
+        padding: 5px;
     }
 }
