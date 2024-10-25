@@ -460,6 +460,9 @@
 }
 
 @media (max-width: 429px) and (min-width: 413px){
+    .security{
+        background-color: red;
+    }
 
     .security img{
         width: 412px;
