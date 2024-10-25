@@ -458,95 +458,74 @@
         margin-left: -30px;
     }
 }
-
-@media (max-width: 480px){
-
-
-    .security img{
-        width: 412px;
-        height: 232px;
+@media (max-width: 768px) {
+    .security img {
+        width: 90vw;
+        height: auto; /* Maintain aspect ratio */
     }
 
     .confidence {
         display: flex;
         flex-direction: column;
+        align-items: center; /* Center-align content for smaller screens */
     }
 
-    .top{
+    .top {
         display: flex;
         flex-direction: column;
-        margin-bottom: 40px;
+        margin-bottom: 5vh; /* Use viewport height for spacing */
     }
 
-    .left p{
-        width: 341px;
-        height: 201px;
-        font-size: 25px;
-        line-height: 31.43px;
-        padding: 8px;
+    .left p {
+        width: 80vw; /* Adapt text container width */
+        font-size: 5vw; /* Responsive font size */
+        line-height: 1.5;
+        padding: 1vw;
     }
 
-    .logo p{
-        width: 357px;
-        height: 105px;
-        font-size: 13px;
-        line-height: 16.34px;
-        margin-top: -60px;
-        margin-bottom: -40px;
+    .logo p {
+        width: 85vw;
+        font-size: 2.5vw;
+        line-height: 1.25;
+        margin: -5vh 0 -3vh 0;
     }
 
-    .logo img{
-        margin-right: 8px;
-        margin-left: 10px;
-        margin-top: -30px;
-        width: 59.65px;
-        height: 51.54px;
+    .logo img {
+        margin: -4vh 2vw 0;
+        width: 15vw;
+        height: auto; /* Keep aspect ratio */
         object-fit: cover;
     }
 
-    .right p{
-        width: 357px;
-        height: 105px;
-        font-size: 19px;
-        margin-left: 6px;
-        margin-top: -40px;
-        margin-bottom: 35px;
+    .right p {
+        width: 85vw;
+        font-size: 4vw;
+        margin: -5vh 2vw 5vh;
     }
 
-    .right button{
-        width: 110px;
-        height: 32px;
-        /* font-size: 15px; */
-        margin-left: 6px;
-        margin-bottom: 170px;
+    .right button {
+        width: 30vw;
+        height: 5vh;
+        font-size: 3.5vw;
+        margin-left: 2vw;
+        margin-bottom: 20vh;
     }
 
-    .faq p{
-        width: 350px;
-        font-size: 14px;
-        margin-left: -15px;
-        margin-bottom: -15px;
+    .faq p {
+        width: 80vw;
+        font-size: 3vw;
+        margin: -2vh 0;
     }
 
-    .expandedContent li {
-        width: 330px;
-        font-size: 16px;
-        line-height: 30.2px;
-        margin-left: -30px;
-    }
-
-    .faqExpandedContent h3{
-        width: 330px;
-        font-size: 16px;
-        margin-left: -30px;
-    }
-    
+    .expandedContent li,
+    .faqExpandedContent h3,
     .faqExpandedContent li {
-        width: 320px;
-        font-size: 16px;
-        margin-left: -30px;
+        width: 80vw;
+        font-size: 3.5vw;
+        margin-left: 2vw;
     }
 }
+
 /* 
 @media (max-width: 413px) and (min-width: 391px){
 
