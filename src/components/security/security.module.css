@@ -492,8 +492,8 @@
 
     .logo img {
         margin: -4vh 2vw 0;
-        width: 15vw;
-        height: auto; /* Keep aspect ratio */
+        width: 59.65px;
+        height: 51.54px;
         object-fit: cover;
     }
 
