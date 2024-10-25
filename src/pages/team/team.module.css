@@ -73,6 +73,8 @@
     .left img {
         width: 200px;
         height: 280px;
+        border: 1px solid blue;
+
     }
 
     .right {
