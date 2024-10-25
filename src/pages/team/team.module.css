@@ -80,7 +80,7 @@
     .right {
         margin-left: 0;
         text-align: center;
-        width: 70%;
+        padding: 30px;
         border: 1px solid red;
     }
 
