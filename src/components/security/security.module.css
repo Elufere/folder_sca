@@ -460,11 +460,11 @@
 }
 @media (max-width: 768px) {
     .security {
-        margin-left: -5vw; /* Moves the security container to the left */
+        padding: -5vw; /* Moves the security container to the left */
     }
 
     .security img {
-        width: 90vw;
+        width: 100vw;
         height: auto;
     }
 
@@ -485,7 +485,7 @@
         font-size: 5vw;
         line-height: 1.5;
         padding: 1vw;
-        margin: 2vh 0 0.5vh 0; /* Adds space on top, reduces space below */
+        margin: 2vh 0 2vh 0; /* Adds space on top, reduces space below */
     }
 
     .logo p {
