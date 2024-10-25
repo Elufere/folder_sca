@@ -20,7 +20,7 @@
     }
   }
   
-  @media (max-width: 429px) {
+  @media (max-width: 480px) {
     .footer{
       display: flex;
       align-items: center;
