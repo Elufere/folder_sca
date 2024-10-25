@@ -101,13 +101,17 @@
         padding: 0;
     }
 
+    .header {
+        display: none;
+    }
+
     .support h2{
         font-size: 20px;
     }
 
     .phone, .mail {
         margin-left: 10px;
-        padding: 5px;
+        padding: 10px;
     }
 
     .phoneNum, .email {
