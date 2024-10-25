@@ -486,7 +486,8 @@
         font-size: 5vw;
         line-height: 1.5;
         padding: 1vw;
-        margin: 2vh 0 -1vh 0; /* Adds space on top, reduces space below */
+        margin: 2vh 0 -3vh 0; /* Adds space on top, reduces space below */
+        border: 1px solid red;
     }
 
     .logo p {
@@ -494,6 +495,7 @@
         font-size: 13px;
         line-height: 1.25;
         margin: -5vh 0 5vh 0;
+        border: 1px solid red;
     }
 
     .logo img {
@@ -506,7 +508,7 @@
     .right p {
         width: 85vw;
         font-size: 19px;
-        margin: -2vh 2vw 3vh;
+        margin: -2vh 2vw 5vh;
     }
 
     .right button {
