@@ -481,6 +481,7 @@
         font-size: 5vw; /* Responsive font size */
         line-height: 1.5;
         padding: 1vw;
+        border: 1px solid red;
     }
 
     .logo p {
