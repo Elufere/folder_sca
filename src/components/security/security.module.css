@@ -474,7 +474,6 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 5vh; 
-        border: 1px solid red;
     }
 
     .left p {
