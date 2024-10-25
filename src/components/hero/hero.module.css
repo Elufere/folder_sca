@@ -308,7 +308,7 @@
         }
 } 
 
-@media (max-width: 429px) and (min-width: 394px) {
+@media (max-width: 429px) {
     .hero{
         display: flex;
         flex-direction: column;
@@ -380,8 +380,8 @@
             width: 106px;
             height: 36px;
         }
-        
-} 
+    }     
+/* 
 
 @media (max-width: 394px) and (min-width: 391px) {
     .hero{
@@ -671,4 +671,4 @@
             margin-left: 13px;
             object-fit: cover;
         }
- } 
+ }  */
