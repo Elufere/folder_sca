@@ -99,6 +99,7 @@
 @media (max-width: 429px) {
     .support{
         padding: 0;
+        padding-top: 30px;
     }
 
     .header {
