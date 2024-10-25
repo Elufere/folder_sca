@@ -105,6 +105,11 @@
         font-size: 20px;
     }
 
+    .phone, .mail {
+        margin-left: 10px;
+        padding: 5px;
+    }
+
     .phoneNum, .email {
         font-size: 13px;
         line-height: 20px;
