@@ -90,6 +90,7 @@
         width: 100%; /* Adjust to take full width */
         padding: 10px;
         margin-bottom: 20px; /* Reduce margin for spacing */
+        background-color: red;
     }
     
     .teamMemberInfo {
