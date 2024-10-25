@@ -482,6 +482,7 @@
         font-size: 5vw; /* Responsive font size */
         line-height: 1.5;
         padding: 1vw;
+        margin: 1vh 0;
     }
 
     .logo p {
