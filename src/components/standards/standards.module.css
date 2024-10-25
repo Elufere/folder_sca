@@ -116,8 +116,7 @@
 
     .left {
         width: 80%; 
-        /* height: ;  */
-        margin-bottom: 5px;
+        margin-bottom: -50px;
         border: 1px solid green;
     }
 
@@ -131,6 +130,7 @@
         width: 100%; 
         font-size: 13px; 
         line-height: 20px;
+        margin-bottom: 30px;
         border: 1px solid blue;
 
     }
@@ -142,10 +142,10 @@
     }
 
     .right span {
+        width: 200px; 
         display: flex;
         align-items: center;
         margin-left: -7px;
-        width: 100%; 
         font-size: 14px; 
         white-space: nowrap;
         border: 1px solid red;
