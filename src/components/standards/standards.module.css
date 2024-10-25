@@ -107,48 +107,42 @@
         color: rgba(126, 125, 125, 1);
     }
 }
+
 @media (max-width: 768px) {
     .standards {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center the content if necessary */
     }
 
     .left {
-        width: 90%; /* Use a percentage for responsive width */
-        max-width: 336px; /* Set a max width to maintain design */
-        height: auto; /* Remove fixed height for flexibility */
+        width: 80%; /* Use percentage for width */
+        height: auto; /* Set height to auto to adapt */
         margin-bottom: 20px;
-        text-align: center; /* Center text if needed */
     }
 
     .left h2 {
-        width: 100%; /* Full width of the container */
-        font-size: 24px;
-        margin-bottom: -10px; /* Adjust margin as needed */
+        width: 100%; /* Use full width */
+        font-size: 3vw; /* Responsive font size */
+        margin-bottom: -30px; /* Keep original margin */
     }
 
     .left span {
-        width: 100%; /* Full width of the container */
-        font-size: 14px;
+        width: 100%; /* Use full width */
+        font-size: 2.5vw; /* Responsive font size */
         line-height: 20px;
     }
 
     .right {
-        width: 90%; /* Use a percentage for responsive width */
-        max-width: 157px; /* Set a max width to maintain design */
-        height: auto; /* Remove fixed height for flexibility */
-        margin-bottom: 20px; /* Adjust margin to suit design */
-        display: flex; /* Ensure it aligns content properly */
-        justify-content: center; /* Center align if needed */
+        width: 40%; /* Adjust width to fit layout */
+        height: auto; /* Set height to auto to adapt */
+        margin-bottom: 10%; /* Adjust bottom margin */
     }
 
     .right span {
         display: flex;
         align-items: center;
-        margin-left: 0; /* Reset margin for better alignment */
-        width: 100%; /* Full width of the container */
-        font-size: 14px;
-        justify-content: center; /* Center align text if needed */
+        margin-left: -7px;
+        width: 100%; /* Use full width */
+        font-size: 2.5vw; /* Responsive font size */
     }
 }
