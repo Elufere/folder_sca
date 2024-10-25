@@ -80,7 +80,7 @@
     .right {
         margin-left: 0;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
         border: 1px solid red;
     }
 
@@ -110,7 +110,7 @@
 
 @media (max-width: 429px) {
     .team {
-        padding: 10px;
+        padding: 0px;
     }
 
     .left img {
