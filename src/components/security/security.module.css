@@ -529,7 +529,8 @@
     }
 
     .faq p {
-        width: 39.45vw;
+        width: 303px;
+        height: 68px;
         font-size: 16px;
         margin: -2vh 0;
     }
