@@ -529,7 +529,7 @@
     }
 
     .faq p {
-        width: 303px;
+        /* width: 303px; */
         height: 68px;
         font-size: 16px;
         margin: -2vh 0;
