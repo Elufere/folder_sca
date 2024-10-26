@@ -523,9 +523,14 @@
         margin-bottom: 5vh;
     }
 
+    .faq {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     .faq p {
         width: 80vw;
-        font-size: 3vw;
+        font-size: 16px;
         margin: -2vh 0;
     }
 
