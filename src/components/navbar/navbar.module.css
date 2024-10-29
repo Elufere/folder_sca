@@ -40,12 +40,18 @@
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .navbar {
+        width: 100%;
         display: flex;
         height: auto;
         padding: 20px;
         padding-right: 20px;
+    }
+
+    .logo {
+        width: 104px;
+        height: 35px;
     }
 
     .menuIcon {
@@ -84,7 +90,7 @@
     
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 600px) {
     .navbar {
         padding: 15px;
     }
@@ -97,4 +103,17 @@
         font-size: 16px;
         gap: 8px;
     }
-}
+} */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    
+} */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

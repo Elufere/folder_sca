@@ -460,61 +460,69 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .security {
-        padding: -5vw; 
+        width: 100%;
+        padding: -5vw;
     }
 
     .security img {
         width: 100vw;
-        height: auto;
+        height: 232px;
+        
     }
-
+    
     .confidence {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: -11vw;
+        width: 96%;
+        height: 779px;
+        padding-left: 17px;
     }
-
+    
     .top {
         display: flex;
         flex-direction: column;
         margin-bottom: 5vh;
     }
-
+    
     .left p {
-        width: 80vw;
-        font-size: 5vw;
-        line-height: 1.5;
+        width: 341px;
+        height: 201px;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 31.43px;
         padding: 1vw;
-        margin: 2vh 0 -3vh 0; 
+        margin-top: 104px;
     }
-
+    
     .logo p {
-        width: 85vw;
+        width: 280px;
+        height: 15.75px;
+        font-weight: 400;
         font-size: 13px;
         line-height: 1.25;
-        margin: -5vh 0 -5vh 0;
+        margin: -5vh 0 5vh 0;
     }
-
+    
     .logo img {
         margin: -4vh 2vw 0;
         width: 15vw;
         height: 51.54px;
         object-fit: cover;
     }
-
+    
     .right {
         margin-bottom: 120px;
     }
-
+    
     .right p {
-        width: 85vw;
+        width: 367px;
+        height: 105px;
         font-size: 19px;
-        margin: -2vh 2vw 0.5vh;
+        font-weight: 300;
+        line-height: 23.88px;
+        margin: -2.8vh 2vw 5vh 0.4vw;
     }
-
+    
     .right button {
         width: 30vw;
         height: 5vh;
@@ -522,14 +530,14 @@
         margin-left: 2vw;
         margin-bottom: 5vh;
     }
-
+    
     .faq {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-
+    
     .faq p {
-        /* width: 303px; */
+        width: 303px;
         height: 68px;
         font-size: 16px;
         margin: -2vh 0;

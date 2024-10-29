@@ -87,7 +87,7 @@
     align-items: center;
     justify-content: center;
 }
-
+/* 
 @media (max-width: 1280px) and (min-width: 1115px) {
     .header{
         margin-left: 490px;
@@ -258,200 +258,97 @@
         margin-top: 30px;
     } 
  
-}
+} */
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+    .services {
+        max-width: 450px;
+        height: 1780px;
+    }
+
     .header{
         margin-left: -8px;
-        font-size: 17px;
+        font-size: 14px;
+        font-size: 500;
         display: flex;
         justify-content: center;
-        margin-top: 70px;
+        color: rgba(152, 151, 151, 1);
     }
     
     .pHeader{
-        width: 300px;
+        max-width: 358px;
         height: 161px;
         font-size: 20px;
+        margin-left: 30px;
         line-height: 24.2px;
-        margin-left: 52px;
     }
     
     .services img{
-        width: 413px;
-        height: 168px;
+        width: 361px;
+        height: 141px;
         margin-top: 10px;
         object-fit: contain;
+       padding: 15px;
+       padding-bottom: 0px;
     }
     
     .cards{
         flex-direction: column;
+        gap: 20px;
         margin-top: 130px;
     } 
     .sellers, .buyers,.request{
-        width: 271px;
+        width: 317px;
+        height: 331px;
         margin-bottom: 50px;
     }
 
     .sellers span, .buyers span,.request span{
-        width: 251px;
+        width: 294px;
+        height: 74px;
         font-size: 32px;
+        margin-right: 4px;
     }
 
     .sellers p, .buyers p,.request p{
-        font-size: 23px;
         width: 271px;
+        height: 145px;
+        font-size: 23px;
+        line-height: 28.91px;
+        padding: 8px;
     }
  }
 
-/* 
-@media (max-width: 395px) and (min-width: 391px) {
-    .header{
-        margin-left: -8px;
-        font-size: 17px;
-        display: flex;
-        justify-content: center;
-        background-color: yellow;
+ @media (max-width: 415px) {
 
+
+    .services img{
+        width: 370px; 
+        padding-left: 25px;      
     }
-
-    .pHeader{
-        width: 300px;
-        height: 161px;
-        font-size: 20px;
-        line-height: 24.2px;
-        margin-left: 42px;
-    }
-
-   .services img{
-        width: 395px;
-        height: 168px;
-        margin-top: 10px;
-        object-fit: contain;
-    }
-
-    .cards{
-        flex-direction: column;
-        margin-top: 30px;
-    } 
  }
 
-@media (max-width: 391px) {
-    .header{
-        margin-left: -8px;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
+ @media (max-width: 394px) {
+    .pHeader {
+        margin-left: 17px;
     }
 
-    .pHeader{
-        width: 300px;
-        height: 161px;
-        font-size: 20px;
-        line-height: 24.2px;
-        margin-left: 45px;
+    .services img{
+        width: 370px; 
+        padding-left: 10px;      
+    }
+ }
+
+ @media (max-width: 376px) {
+    .pHeader {
+        margin-left: 10px;
     }
 
-
-   .services img{
-    width: 390px;
-        max-width: 500px;
-        height: 192px;
-        object-fit: contain;
-        /* margin-left: -10px; */
-        /* margin-top: 10px;
-    }
-
-    .cards{
-        flex-direction: column;
-        margin-top: 30px;
-    } 
-}
-
-@media (max-width: 376px) {
-    .header{
-        margin-left: -8px;
-        font-size: 17px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .pHeader{
-        width: 300px;
-        height: 161px;
-        font-size: 20px;
-        line-height: 24.2px;
-        margin-left: 52px;
-    }
-
-   .services img{
-        width: 413px;
-        height: 168px;
+    .services img{
+        width: 345px;
+        height: 141px;
         margin-top: 10px;
         object-fit: contain;
+       padding: 15px;
     }
-
-    .cards{
-        flex-direction: column;
-        margin-top: 30px;
-    } 
-}
-
-@media (max-width: 360px) and (min-width: 321px) {
-    .header{
-        margin-left: -8px;
-        font-size: 17px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .pHeader{
-        width: 300px;
-        height: 161px;
-        font-size: 20px;
-        line-height: 24.2px;
-        margin-left: 33px;
-    }
-
-   .services img{
-        width: 360px;
-        height: 168px;
-        margin-top: 10px;
-        object-fit: contain;
-    }
-
-    .cards{
-        flex-direction: column;
-        margin-top: 30px;
-    } 
-} 
-    
-@media (max-width: 321px) {
-    .header{
-        margin-left: -8px;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .pHeader{
-        width: 300px;
-        height: 161px;
-        font-size: 20px;
-        line-height: 24.2px;
-        margin-left: 13px;
-    }
-
-   .services img{
-    width: 320px;
-        height: 168px;
-        margin-top: 10px;
-        object-fit: contain;
-    }
-
-    .cards{
-        flex-direction: column;
-        margin-top: 30px;
-    } 
-} 
-     */ 
+ }

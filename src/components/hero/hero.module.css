@@ -308,8 +308,11 @@
         }
 } 
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .hero{
+        width: 92.5%;
+        height: 660px;
+        margin-top: 70px;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -328,21 +331,22 @@
         }
         
         .left h2{
-            width: 350px;
-            height: 103px;
-            margin-top: 87px;
-            font-size: 20px;
-            line-height: 31.43px;
+            width: 336px;
+            height: 83px;
+            margin-top: 25px;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32.8px;
         }
         
         .left p {
-            width: 380px;
-            height: 93px;
+            width: 336px;
+            height: 89px;
             font-family: "Source Sans Pro";
             font-weight: 400;
-            font-size: 19px;
+            font-size: 16px;
             margin-top: -15px;
-            line-height: 21.37px;
+            line-height: 20.11px;
             color: rgba(0, 0, 0, 1);
         }
         
@@ -354,7 +358,7 @@
         }
 
         .right img {
-            width: 340px;
+            width: 306px;
             height: 220px;
             margin-top: -25px; 
             margin-bottom: 20px; 
@@ -362,13 +366,15 @@
             object-fit: cover;
         }
 
+        .appDownload {
+            width: 233px;
+            height: 75px;
+        }
     
         .appDownload span{
-            width: 225px;
-            height: 17px;
             font-weight: 700;
             font-size: 18px;
-            line-height: 22.64px;
+            line-height: 22.63px;
         }
         
         .downloadWrapper {
@@ -377,7 +383,7 @@
         
         .downloadWrapper img{
             margin-right: 10px;
-            width: 106px;
+            width: 103px;
             height: 36px;
         }
     }     
