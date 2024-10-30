@@ -158,10 +158,6 @@
 @media (max-width: 414px) {
     .left{
         margin-bottom: -80px;
-        border: 1px solid red;
     }
 
-    .right{
-        border: 1px solid green;
-    }
 }
