@@ -157,7 +157,7 @@
 
 @media (max-width: 414px) {
     .left{
-        margin-bottom: 0px;
+        margin-bottom: -40px;
         border: 1px solid red;
     }
 
