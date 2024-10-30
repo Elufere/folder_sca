@@ -155,9 +155,8 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 414px) and (min-width: 400px){
     .left{
         margin-bottom: -80px;
     }
-
 }

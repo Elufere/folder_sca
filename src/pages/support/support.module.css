@@ -83,6 +83,19 @@
     margin-left: 10px;
 }
 
+.socialPage {
+    width: 343px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.socialPage img{
+    width: 71px;
+    height: 72px;
+}
+
 @media (max-width: 926px) {
     .support h2{
         font-size: 25px;

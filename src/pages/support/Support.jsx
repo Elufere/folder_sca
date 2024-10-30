@@ -39,6 +39,12 @@ export function Support() {
                     <IoIosArrowForward />
                 </div> 
             </div>
+            <div className={Styles.socialPage}>
+                <img src="/images/instagram.jpeg" alt="" />
+                <img src="/images/facebook.png" alt="" />
+                <img src="/images/twitter.jpeg" alt="" />
+                <img src="/images/tiktok.jpeg" alt="" />
+            </div>
         </div>
     );
 }
