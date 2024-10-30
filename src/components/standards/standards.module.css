@@ -160,4 +160,8 @@
         margin-bottom: -20px;
         border: 1px solid red;
     }
+
+    .right{
+        border: 1px solid green;
+    }
 }
