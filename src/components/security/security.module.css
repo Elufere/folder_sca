@@ -145,7 +145,7 @@
 
 /* Responsiveness */
 
-
+/* 
 @media (max-width: 1280px) and (min-width: 1115px) {
     .logo img{
         width: 80px;
@@ -251,7 +251,7 @@
         width: 210px;
         height: 42px;
         /* font-size: 15px; */
-        margin-left: 6px;
+        /* margin-left: 6px;
         margin-bottom: 170px;
     }
 
@@ -340,8 +340,8 @@
         width: 210px;
         height: 42px;
         /* font-size: 15px; */
-        margin-left: 6px;
-        margin-bottom: 170px;
+        /* margin-left: 6px; */
+        /* margin-bottom: 170px;
     }
 
     .faq p{
@@ -368,10 +368,10 @@
         width: 520px;
         font-size: 16px;
         margin-left: -30px;
-    }
-}
+    } */
+/* }  */
 
-@media (max-width: 801px){
+/* @media (max-width: 801px){
     .security img{
         width: 429px;
         height: 232px;
@@ -428,7 +428,7 @@
         width: 210px;
         height: 42px;
         /* font-size: 15px; */
-        margin-left: 6px;
+      /*  margin-left: 6px;
         margin-bottom: 170px;
     }
 
@@ -457,7 +457,7 @@
         font-size: 16px;
         margin-left: -30px;
     }
-}
+}  */
 
 
 @media (max-width: 600px) {
