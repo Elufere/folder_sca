@@ -36,8 +36,8 @@ export function Team() {
             <TeamMember
                 imageSrc="/images/fisto.jpg"
                 firstName="Fisayo"
-                lastName="Omotayo"
-                title="Senior Software Engineer"
+                lastName="Iyiola"
+                title="Software Engineer"
                 description={
                     <>
                         <p>Fisayo is a tech-savvy full-stack developer with five years of experience in both front-end and back-end development using Angular, React, and NodeJS architecture in deploying software solutions. He also has in-depth knowledge of Firebase, MongoDB, PostgreSQL, and MySQL databases. Proficient in translating designs and wireframes into high-quality code and writing highly responsive user interface components via JavaScript, React, and Angular workflows.</p>
