@@ -1,9 +1,6 @@
 import React from "react";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import {  Layout } from "./pages/layout/Layout";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Layout } from "./pages/layout/Layout";
 import { About } from "./pages/about/About";
 import { Home } from "./pages/home/Home";
 import { Support } from "./pages/support/Support";
@@ -12,9 +9,9 @@ import { Refund } from "./pages/refund/Refund";
 import { Team } from "./pages/team/Team";
 import { AboutScavenge } from "./pages/aboutScavenge/AboutScavenge";
 import { RequestReturn } from "./pages/requestReturn/RequestReturn";
+import DeleteAccount from "./pages/DeleteAccount";
 
 function App() {
-
   const router = createBrowserRouter([
     {
       path: "/",
@@ -22,43 +19,41 @@ function App() {
       children: [
         {
           path: "/",
-          element: <Home />
+          element: <Home />,
         },
         {
           path: "/about",
-          element: <About />
+          element: <About />,
         },
         {
           path: "/support",
-          element: <Support />
+          element: <Support />,
         },
         {
           path: "/policy",
-          element: <Policy />
+          element: <Policy />,
         },
         {
           path: "/refund",
-          element: <Refund />
+          element: <Refund />,
         },
         {
           path: "/team",
-          element: <Team />
+          element: <Team />,
         },
         {
           path: "/aboutScavenge",
-          element: <AboutScavenge />
+          element: <AboutScavenge />,
         },
-        {
-          path: "/requestReturn",
-          element: <RequestReturn />
-        }
       ],
+    },
+    {
+      path: "/delete-account",
+      element: <DeleteAccount />,
     },
   ]);
 
-  return (
-    <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
